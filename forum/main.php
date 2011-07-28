@@ -173,5 +173,5 @@ $locale['forumSimilarThreads_title'] = "&Auml;hnliche Themen";
 $locale['463']  = utf8_encode($locale['463']);
 $locale['518']  = utf8_encode($locale['518']);
 $locale['518a'] = utf8_encode($locale['518a']);
-
+       
 ?>
