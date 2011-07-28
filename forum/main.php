@@ -1,4 +1,4 @@
-<?php
+ï»¿<?php
 
 // v7.03.xx Locale
 // Last Update: 25.06.2011
@@ -36,7 +36,7 @@ $locale['457'] = "Springe zum letzten Beitrag";
 $locale['460'] = "Alle markieren";
 $locale['461'] = "Alle demarkieren";
 $locale['462'] = "Themen l&ouml;schen";
-$locale['463'] = "Willst du die markierten Themen wirklich löschen?";
+$locale['463'] = "Willst du die markierten Themen wirklich lÃ¶schen?";
 
 // Forumlegende
 $locale['470'] = "Thema mit neuen Beitr&auml;gen seit deinem letzten Besuch.";
@@ -83,8 +83,8 @@ $locale['515']  = "Dieses Thema nicht mehr verfolgen";
 $locale['516']  = "Dieses Thema verfolgen";
 $locale['517']  = "Beitr&auml;ge l&ouml;schen";
 $locale['517a'] = "Beitr&auml;ge verschieben";
-$locale['518']  = "Willst du die markierten Beiträge wirklich löschen?";
-$locale['518a'] = "Willst du die markierten Beiträge wirklich verschieben?";
+$locale['518']  = "Willst du die markierten BeitrÃ¤ge wirklich lÃ¶schen?";
+$locale['518a'] = "Willst du die markierten BeitrÃ¤ge wirklich verschieben?";
 $locale['519']  = "Thema drucken";
 $locale['519a'] = "Beitrag drucken";
 
