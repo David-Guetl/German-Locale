@@ -1,7 +1,7 @@
 <?php
 
 // Zustaendig fuer die Profilanzeige
-$locale['u040'] = "Registriert am";
+$locale['u040'] = "Registrierungsdatum";
 $locale['u041'] = "Letzter Besuch";
 $locale['u042'] = "Noch nicht besucht.";
 $locale['u043'] = "Private Nachricht schreiben";
@@ -9,31 +9,31 @@ $locale['u044'] = "Kontakt Informationen";
 $locale['u045'] = "Sonstige Informationen";
 $locale['u046'] = "Optionen";
 $locale['u047'] = "Statistiken";
-$locale['u048'] = "Administrator Information";
+$locale['u048'] = "Administrator Informationen";
 $locale['u049'] = "IP Adresse";
 $locale['u050'] = "Nicht angegeben";
 $locale['u051'] = "E-Mail verstecken?";
 $locale['u052'] = " Ja ";
 $locale['u053'] = " Nein";
-$locale['u054'] = "Log anzeigen";
+$locale['u054'] = "Benutzer Log anzeigen";
 $locale['u055'] = "Benutzerstatus:";
 $locale['u056'] = "Grund";
 $locale['u057'] = "Benutzergruppen";
-$locale['u058'] = "Administrator Optionen";
+$locale['u058'] = "Administrationsoptionen";
 $locale['u059'] = "Hinzuf&uuml;gen";
-$locale['u060'] = "Willst du diesen Benutzer wirklich der Gruppe hinzufügen?";
+$locale['u060'] = "Willst du diesen Benutzer wirklich der Gruppe hinzufÃ¼gen?";
 $locale['u061'] = "Zur Gruppe hinzuf&uuml;gen";
 $locale['u062'] = "Benutzer Avatar";
 $locale['u063'] = "Benutzerlevel";
-$locale['u064'] = "E-Mail";
-$locale['u066'] = "Registriert am";
+$locale['u064'] = "E-Mail Adresse";
+$locale['u066'] = "Registrierungsdatum";
 $locale['u067'] = "Letzter Besuch";
 $locale['u068'] = "Benutzername";
 $locale['u069'] = "Bearbeiten";
 $locale['u070'] = "Bannen";
 $locale['u071'] = "Tempor&auml;r bannen";
 $locale['u072'] = "L&ouml;schen";
-$locale['u073'] = "Willst du diesen Benutzer wirklich löschen?";
+$locale['u073'] = "Willst du diesen Benutzer wirklich lÃ¶schen?";
 
 // Profil und Registrierung
 $locale['u100'] = "Wenn du dein Passwort oder deine E-Mail Adresse &auml;ndern m&ouml;chtest, musst du dein aktuelles Passwort angeben.";
@@ -44,11 +44,11 @@ $locale['u104'] = "Profil von";
 $locale['u105'] = "Profil aktualisieren";
 
 // Benutzergruppen anzeigen
-$locale['u110'] = "Benutzergruppe anzeigen";
+$locale['u110'] = "Benutzergruppe ansehen";
 $locale['u111'] = "%u Benutzer";
 $locale['u112'] = "%u Benutzer";
 $locale['u113'] = "Benutzername";
-$locale['u114'] = "Benutzertyp";
+$locale['u114'] = "Benutzerlevel";
 
 // Benutzername und E-Mail
 $locale['u120'] = "Der Benutzername enth&auml;lt ung&uuml;ltige Zeichen.";
@@ -57,12 +57,12 @@ $locale['u122'] = "Du musst einen Benutzernamen angeben.";
 $locale['u123'] = "Deine E-Mail Adresse ist ung&uuml;ltig.";
 $locale['u124'] = "Deine E-Mail Adresse oder dein E-Mail Anbieter steht auf unserer Blacklist.";
 $locale['u125'] = "Diese E-Mail Adresse ist bereits in Verwendung.";
-$locale['u126'] = "Du musst eine E-Mail Adresse angeben.";
+$locale['u126'] = "Du musst deine E-Mail Adresse angeben.";
 $locale['u127'] = "Benutzername";
 $locale['u128'] = "E-Mail Adresse";
 $locale['u129'] = "Account Informationen";
 
-// Passwoerter
+// Passwoerter END
 $locale['u130']  = "Administrator Passw&ouml;rter";
 $locale['u131']  = "Admin Passwort";
 $locale['u132']  = "Login Passw&ouml;rter";
@@ -94,12 +94,12 @@ $locale['u150'] .= "In k&uuml;rze bekommst du eine E-Mail, welche deine Login De
 $locale['u151']  = "Willkommen auf ".$settings['sitename'];
 $locale['u152']  = "Hallo USER_NAME,\n\n";
 $locale['u152'] .= "Willkommen auf ".$settings['sitename'].".\n";
-$locale['u152'] .= "Hier sind die Login Details für deinen Account:\n";
+$locale['u152'] .= "Hier sind die Login Details fï¿½r deinen Account:\n";
 $locale['u152'] .= "Benutzername: USER_NAME\n";
 $locale['u152'] .= "Passwort: USER_PASSWORD\n";
 $locale['u152'] .= "Bitte aktiviere deinen Account, indem du auf folgenden Link klickst:\n";
 $locale['u152'] .= "ACTIVATION_LINK\n\n";
-$locale['u152'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['u152'] .= "Mit freundlichen Grï¿½ï¿½en ".$settings['siteusername'];
 $locale['u153']  = "Die Aktivierungs E-Mail konnte nicht versendet werden.";
 $locale['u154']  = "Bitte <a href='".BASEDIR."contact.php' title='kontaktiere'>kontaktiere</a> den Seiten Administrator.";
 $locale['u155']  = "Aktiviere Account";
@@ -144,11 +144,11 @@ $locale['u200']  = "Eine Best&auml;tigungs E-Mail wurde an deine neue E-Mail Adr
 $locale['u201']  = "Deine E-Mail Adresse wird ge&auml;ndert, wenn du in der E-Mail auf den Link klickst.";
 $locale['u202']  = "E-Mail Adressen Verifizierung auf ".$settings['sitename'];
 $locale['u203']  = "Hallo [USER_NAME],\n\n";
-$locale['u203'] .= "jemand hat diese E-Mail Adresse auf unserer Seite für seinen Account angegeben.\n";
-$locale['u203'] .= "Wenn du deine E-Mail Adresse wirklich ändern möchtest, klicke auf den folgenden Link\n";
+$locale['u203'] .= "jemand hat diese E-Mail Adresse auf unserer Seite fï¿½r seinen Account angegeben.\n";
+$locale['u203'] .= "Wenn du deine E-Mail Adresse wirklich ï¿½ndern mï¿½chtest, klicke auf den folgenden Link\n";
 $locale['u203'] .= "[EMAIL_VERIFY_LINK]\n";
-$locale['u203'] .= "Hinweiß: Du musst eingeloggt sein, um deine E-Mail Adresse ändern zu können.\n\n";
-$locale['u203'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['u203'] .= "Hinweiï¿½: Du musst eingeloggt sein, um deine E-Mail Adresse ï¿½ndern zu kï¿½nnen.\n\n";
+$locale['u203'] .= "Mit freundlichen Grï¿½ï¿½en ".$settings['siteusername'];
 
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
