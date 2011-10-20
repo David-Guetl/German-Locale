@@ -1,58 +1,55 @@
 <?php
 
-// Weblinks einsenden
-$locale['400']  = "Weblink einsenden";
-$locale['410']  = "Danke f&uuml;r das Einsenden des Weblinks.";
-$locale['411']  = "Weiteren Weblink einsenden";
-$locale['412']  = "Zur&uuml;ck zu ".$settings['sitename'];
-$locale['420']  = "Benutze das folgende Formular um einen Weblink einzusenden. ";
-$locale['420'] .= "Deine Einsendung wird von einem Administrator gepr&uuml;ft. ";
-$locale['420'] .= "<strong>".$settings['sitename']."</strong> beh&auml;lt sich das Recht vor, den Weblink zu bearbeiten oder zu l&ouml;schen. ";
-$locale['420'] .= "Der Weblink sollte zum Inhalt der Webseite passen. ";
-$locale['420'] .= "Unpassende Weblinks werden nicht akzeptiert.";
-$locale['421']  = "Kategorie:";
-$locale['422']  = "Name:";
-$locale['423']  = "Adresse:";
-$locale['424']  = "Beschreibung:";
-$locale['425']  = "Weblink einsenden";
+// Links einsenden
+$locale['400']  = "Link einsenden";
+$locale['410']  = "Vielen Dank, deine Einsendung wurde gespeichert.";
+$locale['411']  = "Weiteren Link einsenden";
+$locale['412']  = "Zur&uuml;ck zur Startseite";
+$locale['420']  = "Benutze bitte das folgende Formular, um einen Link einzusenden. ";
+$locale['420'] .= "Deine Einsendung wird anschlie&szlig;end von einem Administrator &uuml;berpr&uuml;ft.";
+$locale['420'] .= "Wir behalten uns das Recht vor, deine Einsendung zu bearbeiten oder zu l&ouml;schen. ";
+$locale['420'] .= "Bitte achte darauf, dass die Einsendung zum Thema der Webseite passt, andersfalls k&ouml;nnen wir diese nicht akzeptieren. ";
+$locale['421']  = "Kategorie";
+$locale['422']  = "Name";
+$locale['423']  = "Adresse";
+$locale['424']  = "Beschreibung";
+$locale['425']  = "Link einsenden";
 
 // News einsenden
 $locale['450']  = "News einsenden";
-$locale['460']  = "Danke f&uuml;r das Einsenden der News.";
+$locale['460']  = "Vielen Dank, deine Einsendung wurde gespeichert.";
 $locale['461']  = "Weitere News einsenden";
-$locale['470']  = "Benutze das folgende Formular um eine News einzusenden. ";
-$locale['470'] .= "Deine Einsendung wird von einem Administrator gepr&uuml;ft. ";
-$locale['470'] .= "<strong>".$settings['sitename']."</strong> beh&auml;lt sich das Recht vor, die News zu bearbeiten oder zu l&ouml;schen. ";
-$locale['470'] .= "Die News sollte zum Inhalt der Webseite passen. ";
-$locale['470'] .= "Unpassende News werden nicht akzeptiert.";
-$locale['471']  = "Betreff:";
-$locale['472']  = "News:";
-$locale['473']  = " Bei dieser Einsendung den automatischen Zeilenumbruch aktivieren.";
+$locale['470']  = "Benutze bitte das folgende Formular, um eine News einzusenden. ";
+$locale['470'] .= "Deine Einsendung wird anschlie&szlig;end von einem Administrator &uuml;berpr&uuml;ft.";
+$locale['470'] .= "Wir behalten uns das Recht vor, deine Einsendung zu bearbeiten oder zu l&ouml;schen. ";
+$locale['470'] .= "Bitte achte darauf, dass die Einsendung zum Thema der Webseite passt, andersfalls k&ouml;nnen wir diese nicht akzeptieren. ";
+$locale['471']  = "Betreff";
+$locale['472']  = "News";
+$locale['473']  = " Bei dieser News den automatischen Zeilenumbruch aktivieren.";
 $locale['474']  = "Vorschau";
 $locale['475']  = "News einsenden";
-$locale['476']  = "Kategorie:";
+$locale['476']  = "Kategorie";
 $locale['477']  = "- Keine -";
-$locale['478']  = "Ausschnitt:";
+$locale['478']  = "Kurznews";
 
 // Artikel einsenden
 $locale['500']  = "Artikel einsenden";
-$locale['510']  = "Danke f&uuml;r das Einsenden des Artikels.";
+$locale['510']  = "Vielen Dank, deine Einsendung wurde gespeichert.";
 $locale['511']  = "Weiteren Artikel einsenden";
-$locale['520']  = "Benutze das folgende Formular um einen Artikel einzusenden. ";
-$locale['520'] .= "Deine Einsendung wird von einem Administrator gepr&uuml;ft. ";
-$locale['520'] .= "<strong>".$settings['sitename']."</strong> beh&auml;lt sich das Recht vor, den Artikel zu bearbeiten oder zu l&ouml;schen. ";
-$locale['520'] .= "Der Artikel sollte zum Inhalt der Webseite passen. ";
-$locale['520'] .= "Unpassende Artikel werden nicht akzeptiert.";
-$locale['521']  = "Kategorie:";
-$locale['522']  = "Betreff:";
-$locale['523']  = "Auszug:";
-$locale['524']  = "Artikel:";
-$locale['525']  = " Bei dieser Einsendung den automatischen Zeilenumbruch aktivieren.";
+$locale['520']  = "Benutze bitte das folgende Formular, um einen Link einzusenden. ";
+$locale['520'] .= "Deine Einsendung wird anschlie&szlig;end von einem Administrator &uuml;berpr&uuml;ft.";
+$locale['520'] .= "Wir behalten uns das Recht vor, deine Einsendung zu bearbeiten oder zu l&ouml;schen. ";
+$locale['520'] .= "Bitte achte darauf, dass die Einsendung zum Thema der Webseite passt, andersfalls k&ouml;nnen wir diese nicht akzeptieren. ";
+$locale['521']  = "Kategorie";
+$locale['522']  = "Betreff";
+$locale['523']  = "Kurzartikel";
+$locale['524']  = "Artikel";
+$locale['525']  = " Bei diesen Artikel den automatischen Zeilenumbruch aktivieren.";
 $locale['526']  = "Vorschau";
 $locale['527']  = "Artikel einsenden";
 
 // Allgemeine Fehlermeldungen
-$locale['550']  = "Bitte f&uuml;lle das Formular aus.";
+$locale['550']  = "Bitte fülle das Formular aus.";
 $locale['551']  = "Keine Kategorien definiert.";
 $locale['552']  = "Keine Alben erstellt.";
 
@@ -116,4 +113,5 @@ $locale['694']  = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s"
 $locale['694b'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s / Maximale Breite: %spx, Maximale H&ouml;he: %spx";
 $locale['695']  = "Download einsenden";
 
+$locale['550'] = utf8_decode($locale['550']);
 ?>
