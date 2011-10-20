@@ -113,5 +113,5 @@ $locale['694']  = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s"
 $locale['694b'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s / Maximale Breite: %spx, Maximale H&ouml;he: %spx";
 $locale['695']  = "Download einsenden";
 
-$locale['550'] = utf8_decode($locale['550']);
+$locale['550'] = utf8_encode($locale['550']);
 ?>
