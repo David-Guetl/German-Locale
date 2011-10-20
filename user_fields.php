@@ -62,12 +62,12 @@ $locale['u127'] = "Benutzername";
 $locale['u128'] = "E-Mail Adresse";
 $locale['u129'] = "Account Informationen";
 
-// Passwoerter END
+// Passwoerter
 $locale['u130']  = "Administrator Passw&ouml;rter";
 $locale['u131']  = "Admin Passwort";
 $locale['u132']  = "Login Passw&ouml;rter";
 $locale['u133']  = "Login Passwort";
-$locale['u134']  = "Neues Login Passwort";
+$locale['u134']  = "Neues Passwort";
 $locale['u135']  = "Neues Passwort best&auml;tigen";
 $locale['u136']  = "Du musst ein Passwort angeben.";
 $locale['u137']  = "Du musst dein aktuelles Admin Passwort angeben.";
@@ -80,33 +80,33 @@ $locale['u143']  = " stimmen nicht &uuml;berein.";
 $locale['u143a']  = " darf nicht leer bleiben.";
 $locale['u144']  = "Neues Admin Passwort";
 $locale['u145']  = "Neues Passwort best&auml;tigen";
-$locale['u146']  = " darf nicht das selbe sein, wie dein aktuelles ";
+$locale['u146']  = " darf nicht das Selbe sein, wie dein aktuelles ";
 $locale['u147']  = "Passwort muss zwischen 8 und 64 Zeichen lang sein.<br />Erlaubte Zeichen: a-z, 0-9 and @!#$%&amp;\/()=-_?+*.,:;";
 $locale['u148']  = "Neue Login Passw&ouml;rter stimmen nicht &uuml;berein.";
 $locale['u148a'] = "Neue Admin Passw&ouml;rter stimmen nicht &uuml;berein.";
 $locale['u149']  = "Du hast dein aktuelles Login Passwort nicht angegeben oder es ist falsch.";
 $locale['u149a'] = "Du hast dein aktuelles Admin Passwort nicht angegeben oder es ist falsch.";
-$locale['u149b'] = "Du hast dein aktuelles Admin Passwort nicht angegeben oder es ist falsch.<br />Du kannst dein Admin Passowrt nicht &auml;ndern, ohne dein aktuelles Login Passwort anzugeben.";
+$locale['u149b'] = "Du hast dein aktuelles Admin Passwort nicht angegeben oder es ist falsch.<br />Du kannst dein Admin Passwort nicht &auml;ndern, ohne dein aktuelles Login Passwort anzugeben.";
 
 // E-Mail Aktivierung
-$locale['u150']  = "Deine Registrierung ist abgeschlossen.<br />\n";
-$locale['u150'] .= "In k&uuml;rze bekommst du eine E-Mail, welche deine Login Details enth&auml;lt sowie einen Aktivierungslink.";
+$locale['u150']  = "Die Registrierung ist abgeschlossen.<br />\n";
+$locale['u150'] .= "In K&uuml;rze bekommst du eine E-Mail, welche deine Login Daten sowie einen Aktivierungslink enth&auml;lt.";
 $locale['u151']  = "Willkommen auf ".$settings['sitename'];
 $locale['u152']  = "Hallo USER_NAME,\n\n";
 $locale['u152'] .= "Willkommen auf ".$settings['sitename'].".\n";
-$locale['u152'] .= "Hier sind die Login Details f�r deinen Account:\n";
+$locale['u152'] .= "Hier sind die Login Daten für deinen Account:\n";
 $locale['u152'] .= "Benutzername: USER_NAME\n";
 $locale['u152'] .= "Passwort: USER_PASSWORD\n";
 $locale['u152'] .= "Bitte aktiviere deinen Account, indem du auf folgenden Link klickst:\n";
 $locale['u152'] .= "ACTIVATION_LINK\n\n";
-$locale['u152'] .= "Mit freundlichen Gr��en ".$settings['siteusername'];
+$locale['u152'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
 $locale['u153']  = "Die Aktivierungs E-Mail konnte nicht versendet werden.";
 $locale['u154']  = "Bitte <a href='".BASEDIR."contact.php' title='kontaktiere'>kontaktiere</a> den Seiten Administrator.";
 $locale['u155']  = "Aktiviere Account";
 $locale['u156']  = "Bitte gib dein aktuelles Login Passwort an, um deine E-Mail Adresse zu &auml;ndern.";
 
 // Erfolgreich- / Fehler-Meldungen
-$locale['u160'] = "Registrierung abgeschlossen";
+$locale['u160'] = "Die Registrierung ist abgeschlossen";
 $locale['u161'] = "Du kannst dich nun einloggen.";
 $locale['u162'] = "Ein Administrator wird deinen Account in K&uuml;rze aktivieren.";
 $locale['u163'] = "Dein Profil wurde erfolgreich aktualisiert.";
@@ -122,11 +122,11 @@ $locale['u173'] = "Zur&uuml;ck zum Benutzer Kontrollzentrum";
 $locale['u174'] = "Weiteren Benutzer hinzuf&uuml;gen";
 
 // Avatar Upload
-$locale['u180'] = "Dein Avatar ist zu gro&szlig;, die maximale Dateigr&ouml;&szlig;e ist ".parsebytesize($settings['avatar_filesize']).".";
-$locale['u181'] = "Dein Avatar hat ein falsches Dateiformat. Erlaubte Dateiformate sind .GIF, .JPEG und .PNG";
+$locale['u180'] = "Dein Avatar ist zu gro&szlig;, die maximale Dateigr&ouml;&szlig;e betr&auml;gt ".parsebytesize($settings['avatar_filesize']).".";
+$locale['u181'] = "Dein Avatar hat ein falsches Dateiformat. Erlaubte Dateiformate sind .GIF, .JPEG und .PNG.";
 $locale['u182'] = "Dein Avatar ist gr&ouml;&szlig;er als ".$settings['avatar_width']."x".$settings['avatar_height']." Pixel.";
-$locale['u183'] = "Dein Avatar wurde nicht richtig hochgeladen.";
-$locale['u184'] = "Maximale Dateigr&ouml;&szlig;e: %s / Maximale Gr&ouml;&szlig;e: %ux%u pixels";
+$locale['u183'] = "Dein Avatar konnte nicht richtig hochgeladen werden.";
+$locale['u184'] = "Maximale Dateigr&ouml;&szlig;e: %s / Maximale Gr&ouml;&szlig;e: %ux%u Pixel";
 $locale['u185'] = "Avatar";
 $locale['u186'] = "Klicke auf Durchsuchen, um ein Avatar hochzuladen.";
 $locale['u187'] = "L&ouml;schen";
@@ -141,14 +141,14 @@ $locale['u195'] = "Du musst einen Sicherheitscode angeben.";
 
 // E-Mail Aenderungs Information
 $locale['u200']  = "Eine Best&auml;tigungs E-Mail wurde an deine neue E-Mail Adresse &quot;<em>%s</em>&quot; gesendet.";
-$locale['u201']  = "Deine E-Mail Adresse wird ge&auml;ndert, wenn du in der E-Mail auf den Link klickst.";
+$locale['u201']  = "Deine E-Mail Adresse wird ge&auml;ndert, sobald du den Link in der E-Mail anklickst.";
 $locale['u202']  = "E-Mail Adressen Verifizierung auf ".$settings['sitename'];
 $locale['u203']  = "Hallo [USER_NAME],\n\n";
-$locale['u203'] .= "jemand hat diese E-Mail Adresse auf unserer Seite f�r seinen Account angegeben.\n";
-$locale['u203'] .= "Wenn du deine E-Mail Adresse wirklich �ndern m�chtest, klicke auf den folgenden Link\n";
+$locale['u203'] .= "du hast diese E-Mail Adresse für deinen Account angegeben.\n";
+$locale['u203'] .= "Wenn du deine E-Mail Adresse wirklich ändern möchtest, klicke bitte auf den folgenden Link\n";
 $locale['u203'] .= "[EMAIL_VERIFY_LINK]\n";
-$locale['u203'] .= "Hinwei�: Du musst eingeloggt sein, um deine E-Mail Adresse �ndern zu k�nnen.\n\n";
-$locale['u203'] .= "Mit freundlichen Gr��en ".$settings['siteusername'];
+$locale['u203'] .= "Hinweis: Du musst eingeloggt sein, um deine E-Mail Adresse aktivieren zu können.\n\n";
+$locale['u203'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
 
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
