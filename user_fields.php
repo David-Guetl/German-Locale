@@ -131,7 +131,7 @@ $locale['u185'] = "Avatar";
 $locale['u186'] = "Klicke auf Durchsuchen, um ein Avatar hochzuladen.";
 $locale['u187'] = "L&ouml;schen";
 
-// Chaptcha und Nutzungsbedienungen
+// Chaptcha und Nutzungsbedingungen
 $locale['u190'] = "Sicherheitscode";
 $locale['u191'] = "Sicherheitscode eingeben";
 $locale['u192'] = "Nutzungsbedingungen";
