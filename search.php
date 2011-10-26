@@ -35,7 +35,7 @@ $locale['450'] = "Absteigend";
 $locale['451'] = "Aufsteigend";
 
 // Zeichen in Ergebnisse
-$locale['460'] = "Zeige:";
+$locale['460'] = "";
 $locale['461'] = "Zeichen im Ergebnis";
 $locale['462'] = "Text";
 
@@ -48,7 +48,7 @@ $locale['502'] = "Suchw&ouml;rter mit weniger als 3 Zeichen (%s) werden in der S
 $locale['510'] = "Ergebnisse der Suche auf der gesamten Seite";
 $locale['520'] = "Treffer";
 $locale['521'] = "Treffer";
-$locale['522'] = "mit Suchmuster gefunden";
+$locale['522'] = "wurde(n) mit diesen Suchmuster gefunden.";
 $locale['530'] = "Bitte mache genauere Angaben. Deine Anfrage erbrachte %s Ergebnisse. Es werden nur die ersten 100 Ergebnisse angezeigt.";
 
 ?>
