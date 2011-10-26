@@ -6,13 +6,13 @@ $locale['401'] = " am ";
 $locale['402'] = "Erweiterte News";
 
 // Forum
-$locale['500'] = "Threadtitel:";
+$locale['500'] = "Thema:";
 $locale['501'] = "Geschrieben von ";
 $locale['502'] = " am ";
 $locale['503'] = "Bearbeitet von ";
 
-// Nutzungsbedienungen
-$locale['600'] = "Nutzungsbedienungen";
+// Nutzungsbedingungen
+$locale['600'] = "Nutzungsbedingungen";
 $locale['601'] = "Letzte &Auml;nderung am:";
 
 ?>
