@@ -6,10 +6,10 @@ $locale['410'] = "[NEU]";
 $locale['411'] = "Lizenz:";
 $locale['412'] = "O/S:";
 $locale['413'] = "Version:";
-$locale['414'] = "Hinzugef&uuml;gt am:";
+$locale['414'] = "Ver&ouml;ffentlichungsdatum:";
 $locale['415'] = "Downloads:";
 $locale['416'] = "Download";
-$locale['417'] = "Downloads Startseite";
+$locale['417'] = "Downloads &Uuml;bersicht";
 $locale['418'] = "Homepage";
 $locale['419'] = "Screenshot";
 $locale['420'] = "Download Titel";
@@ -24,12 +24,12 @@ $locale['428'] = "Informationen";
 $locale['429'] = "Download Statistik";
 
 // Downloads Hinweise
-$locale['430'] = "Keine Download Kategorien definiert.";
-$locale['431'] = "Es befinden sich keine Downloads in dieser Kategorie.";
+$locale['430'] = "Es wurden noch keine Download Kategorien angelegt.";
+$locale['431'] = "Es wurden noch keine Downloads in dieser Kategorie abgelegt.";
 
 // Downloads Statistiken
-$locale['440'] = "Runtergeladen:";
-$locale['441'] = "Am meisten runtergeladen:";
+$locale['440'] = "Downloads gesamt:";
+$locale['441'] = "Am &ouml;ftesten heruntergeladen:";
 $locale['442'] = "Am neuesten:";
 
 // Downloads Suche und Filter
@@ -42,7 +42,7 @@ $locale['455'] = "Downloads";
 $locale['456'] = "Datum";
 $locale['457'] = "Aufsteigend";
 $locale['458'] = "Absteigend";
-$locale['459'] = "Anwenden";
+$locale['459'] = "Filtern";
 $locale['460'] = "Downloads durchsuchen:";
 $locale['461'] = "Los";
 $locale['462'] = "Kategorie:";
