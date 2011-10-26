@@ -3,7 +3,7 @@
 // Newskategorien Allgemein
 $locale['400'] = "News Kategorien";
 $locale['401'] = "Kategorie:";
-$locale['402'] = "Anzahl der Eintr&auml;ge:";
+$locale['402'] = "Enthaltene News:";
 $locale['403'] = "Unkategorisierte News";
 $locale['404'] = "Es befinden sich keine News in dieser Kategorie.";
 $locale['405'] = "Mehr";
