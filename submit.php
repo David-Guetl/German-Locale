@@ -55,18 +55,17 @@ $locale['552']  = "Keine Alben erstellt.";
 
 // Foto einsenden
 $locale['570']  = "Foto einsenden";
-$locale['580']  = "Danke f&uuml;r das Einsenden des Fotos.";
+$locale['580']  = "Vielen Dank, deine Einsendung wurde gespeichert.";
 $locale['581']  = "Weiteres Foto einsenden";
-$locale['600']  = "Dein Foto konnte nicht eingesendet werden.";
-$locale['601']  = "Ung&uuml;tliger Dateiname.";
-$locale['602']  = "Foto muss kleiner als %u Bytes sein.";
-$locale['603']  = "Foto muss eine .GIF, .JPEG oder .PNG Datei sein.";
-$locale['604']  = "Foto muss kleiner als %uw x %uh Pixel sein.";
-$locale['620']  = "Benutze das folgende Formular um ein Foto einzusenden. ";
-$locale['620'] .= "Deine Einsendung wird von einem Administrator gepr&uuml;ft. ";
-$locale['620'] .= "<strong>".$settings['sitename']."</strong> beh&auml;lt sich das Recht vor, Fotos zu bearbeiten oder zu l&ouml;schen. ";
-$locale['620'] .= "Das Foto sollte zum Inhalt der Webseite passen. ";
-$locale['620'] .= "Unpassende Fotos werden nicht akzeptiert.";
+$locale['600']  = "Deine Einsendung konnte nicht gespeichert werden.";
+$locale['601']  = "Das Foto hat einen ung&uuml;ltigen Dateinamen.";
+$locale['602']  = "Das Foto muss kleiner als %u Bytes sein.";
+$locale['603']  = "Das Foto muss eine .GIF, .JPEG oder .PNG Datei sein.";
+$locale['604']  = "Das Foto muss kleiner als %uw x %uh Pixel sein.";
+$locale['620']  = "Benutze bitte das folgende Formular, um ein Foto einzusenden. ";
+$locale['620'] .= "Deine Einsendung wird anschlie&szlig;end von einem Administrator &uuml;berpr&uuml;ft.";
+$locale['620'] .= "Wir behalten uns das Recht vor, deine Einsendung zu bearbeiten oder zu l&ouml;schen. ";
+$locale['620'] .= "Bitte achte darauf, dass die Einsendung zum Thema der Webseite passt, andersfalls k&ouml;nnen wir diese nicht akzeptieren. ";
 $locale['621']  = "Name:";
 $locale['622']  = "Beschreibung:";
 $locale['623']  = "Foto: ";
@@ -76,32 +75,32 @@ $locale['626']  = "Foto einsenden";
 
 // Download einsenden
 $locale['650']  = "Download einsenden";
-$locale['660']  = "Danke f&uuml;r das Einsenden des Downloads.";
+$locale['660']  = "Vielen Dank, deine Einsendung wurde gespeichert.";
 $locale['661']  = "Weiteren Download einsenden";
-$locale['670']  = "Dein Download konnte nicht eingesendet werden.";
-$locale['671']  = "Ung&uuml;ltiger Dateiname.";
-$locale['671a'] = "Ung&uuml;ltiger Dateiname (Screenshoot).";
-$locale['672']  = "Datei muss kleiner sein als %s.";
-$locale['672a'] = "Screenshoot muss kleiner sein als %s.";
-$locale['672b'] = "Screenshoot muss kleiner sein als %s.";
+$locale['670']  = "Deine Einsendung konnte nicht gespeichert werden.";
+$locale['671']  = "Die Datei hat einen ung&uuml;ltigen Dateinamen.";
+$locale['671a'] = "Der Screenshot hat einen ng&uuml;ltigen Dateinamen.";
+$locale['672']  = "Die Datei muss kleiner sein als %s Bytes.";
+$locale['672a'] = "Der Screenshot muss kleiner sein als %s.";
+$locale['672b'] = "Der Screenshot muss kleiner sein als %s.";
 $locale['673']  = "Erlaubte Dateitypen: %s.";
-$locale['673a'] = "Erlaubte Dateitypen (Screenshoot): %s.";
+$locale['673a'] = "Erlaubte Dateitypen: %s.";
 $locale['674']  = "Du musst einen Download Namen angeben.";
 $locale['675']  = "Du musst eine Download Adresse angeben oder die Datei anh&auml;ngen.";
 $locale['676']  = "Du musst eine Download Kurzbeschreibung angeben.";
 $locale['676a'] = "Unbekannter Fehler";
-$locale['680']  = "Benutze das folgende Formular um einen Download einzusenden. ";
-$locale['680'] .= "Deine Einsendung wird von einem Administrator gepr&uuml;ft. ";
-$locale['680'] .= "<strong>".$settings['sitename']."</strong> beh&auml;lt sich das Recht vor, den Download zu bearbeiten oder zu l&ouml;schen. ";
-$locale['680'] .= "Der Download sollte zum Inhalt der Webseite passen. ";
-$locale['680'] .= "Unpassende Downloads werden nicht akzeptiert.";
+
+$locale['680']  = "Benutze bitte das folgende Formular, um einen Download einzusenden. ";
+$locale['680'] .= "Deine Einsendung wird anschlie&szlig;end von einem Administrator &uuml;berpr&uuml;ft.";
+$locale['680'] .= "Wir behalten uns das Recht vor, deine Einsendung zu bearbeiten oder zu l&ouml;schen. ";
+$locale['680'] .= "Bitte achte darauf, dass die Einsendung zum Thema der Webseite passt, andersfalls k&ouml;nnen wir diese nicht akzeptieren. ";
 $locale['681']  = "Name:";
 $locale['682']  = "Beschreibung:";
 $locale['682b'] = "Kurzbeschreibung:";
 $locale['683']  = "Adresse:";
 $locale['684']  = "oder Datei:";
 $locale['685']  = "Dateigr&ouml;&szlig;e berechnen";
-$locale['686']  = "Screenshoot:";
+$locale['686']  = "Screenshot:";
 $locale['687']  = "Kategorie:";
 $locale['688']  = "Lizenz:";
 $locale['689']  = "O/S:";
@@ -109,9 +108,11 @@ $locale['690']  = "Version:";
 $locale['691']  = "Homepage:";
 $locale['692']  = "Copyright:";
 $locale['693']  = "Dateigr&ouml;&szlig;e:";
-$locale['694']  = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s";
-$locale['694b'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s / Maximale Breite: %spx, Maximale H&ouml;he: %spx";
+$locale['694']  = "Maximale Dateigr&ouml;&szlig;e: %s<br />Erlaubte Dateitypen: %s";
+$locale['694b'] = "Maximale Dateigr&ouml;&szlig;e: %s<br />Erlaubte Dateitypen: %s<br />Maximale Gr&ouml;&szlig;e: %spxx%spx";
 $locale['695']  = "Download einsenden";
 
+// BITTE AB HIER NICHT MEHR BEARBEITEN !!
 $locale['550'] = utf8_encode($locale['550']);
+
 ?>
