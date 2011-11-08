@@ -20,10 +20,10 @@ $locale['421'] = "Du musst deine E-Mail Adresse angeben";
 $locale['422'] = "Du musst einen Betreff angeben";
 $locale['423'] = "Du musst eine Nachricht angeben";
 $locale['424'] = "Du musst den korrekten Sicherheitscode angeben";
-$locale['425'] = "Interner Fehler: Konnte die Nachricht nicht versenden.";
+$locale['425'] = "Interner Fehler: Die Nachricht konnte nicht versendet werden.";
 
 // Kontakt Nachricht gesendet
-$locale['440'] = "Deine Nachricht wurde erfolgreich versendet";
+$locale['440'] = "Deine Nachricht wurde erfolgreich versendet.";
 $locale['441'] = "Danke";
 $locale['442'] = "Deine Nachricht konnte aus folgenden Grund/Gr&uuml;nden nicht versendet werden:";
 $locale['443'] = "Bitte versuche es nochmals.";
