@@ -1,13 +1,5 @@
 <?php
 
-// v7.03.xx Locale
-// Last Update: 25.06.2011
-
-if (!defined("IN_FUSION")) { 
-	header("Location: ../../../index.php");
-	exit;
-}
-
 // Thema loeschen
 $locale['400'] = "Thema l&ouml;schen";
 $locale['401'] = "Das Thema wurde gel&ouml;scht.";
@@ -46,7 +38,7 @@ $locale['459'] = "Das Thema wurde erneuert.";
 $locale['460'] = "Forum";
 $locale['461'] = "Betreff";
 $locale['462'] = "Autor";
-$locale['463'] = "Geschrieben am";
+$locale['463'] = "Ver&ouml;ffentlichungsdatum";
 $locale['464'] = "Keine Suchergebnisse gefunden. Bitte versuche es nochmals.";
 $locale['465'] = "Du musst mindestens ein Suchwort angeben.";
 
