@@ -1,13 +1,5 @@
 ﻿<?php
 
-// v7.03.xx Locale
-// Last Update: 25.06.2011
-
-if (!defined("IN_FUSION")) { 
-	header("Location: ../../../index.php");
-	exit;
-}
-
 // Forum Uebersicht
 $locale['400'] = "Forum";
 $locale['401'] = "Forum";
@@ -116,7 +108,7 @@ $locale['550'] = "Suche";
 
 // Alternative Texte bei Bildern
 $locale['560'] = "Neue Beitr&auml;ge";
-$locale['561'] = "Keine neuen Beitr&aum;ge";
+$locale['561'] = "Keine neuen Beitr&auml;ge";
 $locale['562'] = "Hei&szlig;es Thema";
 $locale['563'] = "Gepinntes Thema";
 $locale['564'] = "Gesperrtes Thema";
@@ -147,7 +139,7 @@ $locale['610']  = "Keine Themen um Beitr&auml;ge zu verschieben.";
 // Beitraege verschieben - Fehlermeldungen
 $locale['error-MP000'] = "Beitr&auml;ge verschieben - Fehler";
 $locale['error-MP001'] = "Neues Thema existiert nicht.";
-$locale['error-MP002'] = "Die markierten Beitr&auml;ge existieren nicht mehr oder jemand anders hat diese bereits verschoben.";
+$locale['error-MP002'] = "Die markierten Beitr&auml;ge existieren nicht oder jemand anders hat diese bereits verschoben.";
 $locale['error-MP003'] = "Keine Beitr&auml;ge zu verschieben.";
 
 // Foren Statistik
