@@ -1,13 +1,5 @@
 <?php
 
-// v7.03.xx Locale
-// Last Update: 25.06.2011
-
-if (!defined("IN_FUSION")) { 
-	header("Location: ../../../index.php");
-	exit;
-}
-
 // Post Titel
 $locale['400'] = "Vorschau";
 $locale['401'] = "Thema er&ouml;ffnen";
@@ -26,9 +18,9 @@ $locale['422'] = "Autor:";
 $locale['423'] = "Beitr&auml;ge:";
 $locale['424'] = "Wohnort:";
 $locale['425'] = "Registriert am:";
-$locale['426'] = "Geschrieben am ";
+$locale['426'] = "Verfassungsdatum: ";
 $locale['427'] = "Bearbeitet von ";
-$locale['428'] = " am ";
+$locale['428'] = ", ";
 $locale['429'] = " schrieb:";
 $locale['430'] = "Benutzeravatar";
 $locale['431'] = "Letzter Beitrag";
@@ -46,12 +38,12 @@ $locale['446']  = "Dein Beitrag wurde aktualisiert.";
 $locale['447']  = "Zur&uuml;ck zum Thema";
 $locale['448']  = "Zur&uuml;ck zum Forum";
 $locale['449']  = "Zur&uuml;ck zur Foren &Uuml;bersicht";
-$locale['450']  = "Fehler: Dein Benutzercookie ist abgelaufen, bitte logge dich ein und schreibe den Beitrag erneut.";
+$locale['450']  = "Fehler: Dein Benutzercookie ist abgelaufen, bitte logge dich erneut ein und schreibe deinen Beitrag neu.";
 $locale['451']  = "Thema verfolgen";
 $locale['452']  = "Du verfolgst dieses Thema.";
 $locale['453']  = "Du verfolgst dieses Thema nicht mehr.";
 $locale['454']  = "Dieser Beitrag wurde gesperrt. F&uuml;r weitere Informationen kontaktiere einen Moderator.";
-$locale['455']  = "Du kannst einen Beitrag nur %d Minuten nachdem er geschrieben wurde bearbeiten.";
+$locale['455']  = "Du kannst deinen Beitrag nur %d Minuten nachdem er geschrieben wurde bearbeiten.";
 
 // Post Formular
 $locale['460']  = "Betreff";
@@ -97,11 +89,11 @@ $locale['532'] = "Los";
 // Thread verfolgen - Benachrichtigungs E-Mail
 $locale['550']  = "Thema verfolgen - {THREAD_SUBJECT}";
 $locale['551']  = "Hallo {USERNAME},\n\n";
-$locale['551'] .= "es gibt eine neue Antwort im Thema \"{THREAD_SUBJECT}\"  welches du auf ".$settings['sitename']." verfolgst.\n";
-$locale['551'] .= "Klicke auf folgenden Link, um die Antwort zu lesen.\n";
+$locale['551'] .= "es gibt einen neuen Beitrag im Thema \"{THREAD_SUBJECT}\"  welches du auf ".$settings['sitename']." verfolgst.\n";
+$locale['551'] .= "Klicke auf den folgenden Link, um den Beitrag zu lesen.\n";
 $locale['551'] .= "{THREAD_URL}\n";
-$locale['551'] .= "Wenn du dieses Thema nicht mehr verfolgen möchtest, klicke am Anfang des Themas auf \"Dieses Thema nicht mehr verfolgen\".\n\n";
-$locale['551'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['551'] .= "Wenn du dieses Thema nicht mehr verfolgen mÃ¶chtest, klicke am Anfang des Themas auf \"Dieses Thema nicht mehr verfolgen\".\n\n";
+$locale['551'] .= "Mit freundlichen GrÃ¼ÃŸen ".$settings['siteusername'];
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
 $locale['550'] = utf8_encode($locale['550']);
