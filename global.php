@@ -2,7 +2,7 @@
 
 /*
 +--------------------------------------------------+
-| Deutsche Sprachdatei fuer PHP-Fusion v7.02.xx    |
+| Deutsche Sprachdatei fuer PHP-Fusion v7.02.04    |
 +--------------------------------------------------+
 | Hiermit moechten wir uns bei allen Benutzern     |
 | bedanken, die uns geholfen haben, diese deutsche |
@@ -15,6 +15,8 @@
 | - Layzee                                         |
 | - MarcusG                                        |
 | - Sunflow1991                                    |
+| - Ingrimmsch                                     |
+| - Thickbox                                       |
 | - Player_Shadow                                  |
 +--------------------------------------------------+
 | http://www.phpfusion-support.de/                 |
@@ -45,7 +47,7 @@ $locale['status0'] = "Aktiv";
 $locale['status1'] = "Gebannt";
 $locale['status2'] = "Unaktiviert";
 $locale['status3'] = "Tempor&auml;r gesperrt";
-$locale['status4'] = "Sicherheitshalber gebannt.";
+$locale['status4'] = "Sicherheitshalber gebannt";
 $locale['status5'] = "Ung&uuml;ltig";
 $locale['status6'] = "Anonym";
 $locale['status7'] = "Deaktiviert";
@@ -102,8 +104,8 @@ $locale['global_049'] = "Geschrieben";
 $locale['global_050'] = "Autor";
 $locale['global_051'] = "Umfrage";
 $locale['global_052'] = "Verschoben";
-$locale['global_053'] = "Du hast bisher keine Foren Themen verfasst.";
-$locale['global_054'] = "Du hast bisher keine Foren Beitr&auml;ge verfasst.";
+$locale['global_053'] = "Du hast bisher noch keine Foren Themen verfasst.";
+$locale['global_054'] = "Du hast bisher noch keine Foren Beitr&auml;ge verfasst.";
 $locale['global_055'] = "Seit deinem letzten Besuch gibt es %u neue Beitr&auml;ge in %u unterschiedlichen Themen.";
 $locale['global_056'] = "Meine abonnierten Themen";
 $locale['global_057'] = "Optionen";
@@ -113,7 +115,7 @@ $locale['global_060'] = "Dieses Thema nicht mehr verfolgen?";
 
 // News und Artikel
 $locale['global_070']  = "Geschrieben von ";
-$locale['global_071']  = "am ";
+$locale['global_071']  = ", ";
 $locale['global_072']  = "Mehr lesen";
 $locale['global_073']  = " Kommentare";
 $locale['global_073b'] = " Kommentar";
@@ -127,7 +129,7 @@ $locale['global_080']  = "keiner Kategorie";
 
 // Seiten Navigation
 $locale['global_090'] = "Zur&uuml;ck";
-$locale['global_091'] = "N&auml;chste";
+$locale['global_091'] = "Vorw&auml;rts";
 $locale['global_092'] = "Seite ";
 $locale['global_093'] = " von ";
 
@@ -135,12 +137,12 @@ $locale['global_093'] = " von ";
 $locale['global_100'] = "Login";
 $locale['global_101'] = "Benutzername";
 $locale['global_102'] = "Passwort";
-$locale['global_103'] = "Login merken";
+$locale['global_103'] = "Eingeloggt bleiben";
 $locale['global_104'] = "Login";
 $locale['global_105'] = "Noch kein Mitglied?<br /><a href='".BASEDIR."register.php' class='side' title='Klicke hier'>Klicke hier</a> um dich zu registrieren";
 $locale['global_106'] = "Passwort vergessen?<br />Um ein neues Passwort anzufordern <a href='".BASEDIR."lostpassword.php' class='side' title='klicke hier'>klicke hier</a>.";
 $locale['global_107'] = "Registrieren";
-$locale['global_108'] = "Passwort vergessen";
+$locale['global_108'] = "Passwort vergessen?";
 
 // Mitglieder Menu
 $locale['global_120'] = "Profil bearbeiten";
@@ -157,7 +159,7 @@ $locale['global_129'] = "Einsendungen";
 // Umfrage
 $locale['global_130'] = "Mitglieder Umfrage";
 $locale['global_131'] = "Abstimmen";
-$locale['global_132'] = "Du musst dich einloggen, um abstimmen zu k&ouml;nnen.";
+$locale['global_132'] = "Du musst eingeloggt sein, um abstimmen zu k&ouml;nnen.";
 $locale['global_133'] = "Stimme";
 $locale['global_134'] = "Stimmen";
 $locale['global_135'] = "Stimmen: ";
@@ -195,7 +197,7 @@ $locale['global_196'] = "Falscher Benutzername oder falsches Passwort.";
 $locale['global_197'] = "Bitte warte, w&auml;hrend du weitergeleitet wirst ...<br /><br />";
 $locale['global_197'] = "[ <a href='index.php' title='Oder klicke hier, wenn du nicht warten m&ouml;chtest'>Oder klicke hier, wenn du nicht warten m&ouml;chtest</a> ]";
 $locale['global_198'] = "<strong>Hinwei&szlig;:</strong> setup.php wurde gefunden. Bitte umgehend l&ouml;schen.";
-$locale['global_199'] = "<strong>Hinwei&szlig;:</strong> Du hast noch kein Admin Passwort gesetzt, klicke auf <a href='".BASEDIR."edit_profile.php' title='Profil bearbeiten'>Profil bearbeiten</a> um eines zu setzten.";
+$locale['global_199'] = "<strong>Hinwei&szlig;:</strong> Du hast noch kein Admin Passwort gesetzt, klicke auf <a href='".BASEDIR."edit_profile.php' title='Profil bearbeiten'>Profil bearbeiten</a> um eines zu setzen.";
 
 // Titel
 $locale['global_200'] = " - ";
@@ -243,31 +245,31 @@ $locale['global_411'] = "Dieser Account wurde gel&ouml;scht.";
 $locale['global_412'] = "Dieser Account wurde anonymisiert, weil der Benutzer m&ouml;glicherwei&szlig;e inaktiv war.";
 
 // Autoban wegen Spam
-$locale['global_440']  = "Automatisches Sperren durch die Floodkontrolle";
+$locale['global_440']  = "Automatische Sperre durch die Floodkontrolle";
 $locale['global_441']  = "Dein Account auf ".$settings['sitename']." wurde gesperrt";
 $locale['global_442']  = "Hallo [USER_NAME],\n\n";
-$locale['global_442'] .= "dein Account auf ".$settings['sitename']." wurde wegen zuvieler Anfragen beziehungsweiße Postings über die IP-Adresse ".USER_IP." gesperrt.\n";
+$locale['global_442'] .= "dein Account auf ".$settings['sitename']." wurde wegen zuvieler Anfragen beziehungsweiÃŸe Postings Ã¼ber die IP-Adresse ".USER_IP." gesperrt.\n";
 $locale['global_442'] .= "Dies geschah zum Schutz vor Spambots.\n";
-$locale['global_442'] .= "Um deinen Account wieder zu aktivieren, oder uns mitzuteilen, dass dies nicht der Grund für die Sperre sein kann, kontaktiere einen Administrator unter ".$settings['siteemail']."\n\n";
-$locale['global_442'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['global_442'] .= "Um deinen Account wieder zu aktivieren, oder uns mitzuteilen, dass dies nicht der Grund fÃ¼r die Sperre sein kann, kontaktiere bitte einen Administrator unter ".$settings['siteemail']."\n\n";
+$locale['global_442'] .= "Mit freundlichen GrÃ¼ÃŸen ".$settings['siteusername'];
 
 // Account deaktivierung
-$locale['global_450']  = "Sperrung deines Accounts aufgehoben";
+$locale['global_450']  = "Sperre deines Accounts aufgehoben";
 $locale['global_451']  = "Dein Account auf ".$settings['sitename']." wurde entsperrt";
 $locale['global_452']  = "Hallo USER_NAME,\n\n";
-$locale['global_452'] .= "die Sperrung deines Accounts auf ".$settings['siteurl']." wurde aufgehoben.\n";
+$locale['global_452'] .= "die Sperre deines Accounts auf ".$settings['siteurl']." wurde aufgehoben.\n";
 $locale['global_452'] .= "Deine Login Daten waren:\n";
 $locale['global_452'] .= "Benutzername: USER_NAME\n";
-$locale['global_452'] .= "Passwort: Aus Sicherheitsgründen nicht genannt.\n";
+$locale['global_452'] .= "Passwort: Aus SicherheitsgrÃ¼nden nicht genannt.\n";
 $locale['global_452'] .= "Solltest du dein Passwort vergessen haben, kannst du hier LOST_PASSWORD ein neues anfordern.\n\n";
-$locale['global_452'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['global_452'] .= "Mit freundlichen GrÃ¼ÃŸen ".$settings['siteusername'];
 $locale['global_453']  = "Hallo USER_NAME,\n\n";
-$locale['global_453'] .= "die Sperrung deines Accounts auf ".$settings['siteurl']." wurde aufgehoben.\n\n";
-$locale['global_453'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
-$locale['global_454']  = "Dein Account ".$settings['sitename']." wurde reaktiviert";
+$locale['global_453'] .= "die Sperre deines Accounts auf ".$settings['siteurl']." wurde aufgehoben.\n\n";
+$locale['global_453'] .= "Mit freundlichen GrÃ¼ÃŸen ".$settings['siteusername'];
+$locale['global_454']  = "Dein Account auf ".$settings['sitename']." wurde reaktiviert";
 $locale['global_455']  = "Hallo USER_NAME,\n\n";
-$locale['global_455'] .= "bei deinem letzten Login auf ".$settings['siteurl']." wurde dein Account reaktiviert und ist nicht mehr länger als inaktiv makiert.\n\n";
-$locale['global_455'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
+$locale['global_455'] .= "bei deinem letzten Login auf ".$settings['siteurl']." wurde dein Account reaktiviert und ist nicht mehr lÃ¤nger als inaktiv makiert.\n\n";
+$locale['global_455'] .= "Mit freundlichen GrÃ¼ÃŸen ".$settings['siteusername'];
 
 // Function parsebytesize()
 $locale['global_460'] = "Leer";
@@ -278,7 +280,7 @@ $locale['global_464'] = "GB";
 $locale['global_465'] = "TB";
 
 // Weiterleitung
-$locale['global_500'] = "Bitte warte, du wirst weitergeleitet zu %s. Wenn die Weiterleitung nicht funktioniert, klicke bitte hier.";
+$locale['global_500'] = "Bitte warte, du wirst weitergeleitet zu %s. Sollte die Weiterleitung nicht funktionieren, klicke bitte hier.";
 
 // Sicherheitscode
 $locale['global_600'] = "Sicherheitscode";
@@ -288,12 +290,13 @@ $locale['recaptcha']  = "de";
 $locale['global_900'] = "Nicht m&ouml;glich HEX zu DEC umzuwandeln.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['global_441'] = utf8_encode($locale['global_441']);
-$locale['global_442'] = utf8_encode($locale['global_442']);
-$locale['global_451'] = utf8_encode($locale['global_451']);
-$locale['global_452'] = utf8_encode($locale['global_452']);
-$locale['global_453'] = utf8_encode($locale['global_453']);
-$locale['global_454'] = utf8_encode($locale['global_454']);
-$locale['global_455'] = utf8_encode($locale['global_455']);
+#$locale['global_060'] = utf8_encode($locale['global_060']);
+#$locale['global_441'] = utf8_encode($locale['global_441']);
+#$locale['global_442'] = utf8_encode($locale['global_442']);
+#$locale['global_451'] = utf8_encode($locale['global_451']);
+#$locale['global_452'] = utf8_encode($locale['global_452']);
+#$locale['global_453'] = utf8_encode($locale['global_453']);
+#$locale['global_454'] = utf8_encode($locale['global_454']);
+#$locale['global_455'] = utf8_encode($locale['global_455']);
 
 ?>
