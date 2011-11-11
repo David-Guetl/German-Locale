@@ -113,6 +113,6 @@ $locale['694b'] = "Maximale Dateigr&ouml;&szlig;e: %s<br />Erlaubte Dateitypen: 
 $locale['695']  = "Download einsenden";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['550'] = utf8_encode($locale['550']);
+#$locale['550'] = utf8_encode($locale['550']);
 
 ?>
