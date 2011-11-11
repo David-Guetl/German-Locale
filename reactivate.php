@@ -19,7 +19,7 @@ $locale['505'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
 $locale['506']  = "Reaktiviert durch Benutzer.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['504'] = utf8_encode($locale['504']);
-$locale['505'] = utf8_encode($locale['505']);
+#$locale['504'] = utf8_encode($locale['504']);
+#$locale['505'] = utf8_encode($locale['505']);
 
 ?>
