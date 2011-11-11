@@ -96,7 +96,7 @@ $locale['551'] .= "Wenn du dieses Thema nicht mehr verfolgen möchtest, klicke a
 $locale['551'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['550'] = utf8_encode($locale['550']);
-$locale['551'] = utf8_encode($locale['551']);
+#$locale['550'] = utf8_encode($locale['550']);
+#$locale['551'] = utf8_encode($locale['551']);
 
 ?>
