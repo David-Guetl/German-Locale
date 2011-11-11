@@ -152,11 +152,11 @@ $locale['u203'] .= "Mit freundlichen Grüßen ".$settings['siteusername'];
 
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['u060'] = utf8_encode($locale['u060']);
-$locale['u073'] = utf8_encode($locale['u073']);
-$locale['u151'] = utf8_encode($locale['u151']);
-$locale['u152'] = utf8_encode($locale['u152']);
-$locale['u202'] = utf8_encode($locale['u202']);
-$locale['u203'] = utf8_encode($locale['u203']);
+#$locale['u060'] = utf8_encode($locale['u060']);
+#$locale['u073'] = utf8_encode($locale['u073']);
+#$locale['u151'] = utf8_encode($locale['u151']);
+#$locale['u152'] = utf8_encode($locale['u152']);
+#$locale['u202'] = utf8_encode($locale['u202']);
+#$locale['u203'] = utf8_encode($locale['u203']);
 
 ?>
