@@ -4,7 +4,7 @@
 $locale['title']     = "PHP-Fusion v7 Installation";
 $locale['sub-title'] = "PHP-Fusion v7 Installation";
 $locale['xml_lang']  = "de";
-$locale['charset']   = "utf-8";
+$locale['charset']   = "UTF-8";
 
 // Die Schritte
 $locale['001'] = "Schritt 1: Sprache";
@@ -18,14 +18,14 @@ $locale['008'] = "Zur&uuml;ck";
 $locale['009'] = "Weiter";
 
 // Schritt 1
-$locale['010'] = "Bitte w&auml;hle die gew&uuml;nschte Sprache:";
+$locale['010'] = "Bitte w&auml;hle die gew&uuml;nschte Sprache aus:";
 $locale['011'] = "Weitere Sprachen kannst du auf <a href='http://www.php-fusion.co.uk/' title='http://www.php-fusion.co.uk/' target='_blank' rel='nofollow'>http://www.php-fusion.co.uk</a> herunterladen.";
 
 // Schritt 2
-$locale['020'] = "Um die Installation fortzusetzten, m&uuml;ssen die folgenden Dateien/Ordner Schreibbar sein:";
-$locale['021'] = "Alle Schreibrechte sind in Ordnung, klicke bitte auf &quot;<em>Weiter</em>&quot;.";
+$locale['020'] = "Um die Installation fortzusetzten, m&uuml;ssen die folgenden Dateien/Ordner schreibbar sein:";
+$locale['021'] = "Alle Schreibrechte sind in Ordnung, klicke bitte auf &quot;<em>Weiter</em>&quot; um fortzufahren.";
 $locale['022'] = "Die Schreibrechte sind nicht in Ordnung. Bitte gib den markierten Dateien/Ordnern die ben&ouml;tigten Schreibrechte.";
-$locale['023'] = "in Ordnung";
+$locale['023'] = "Korrekt";
 $locale['024'] = "Fehlerhaft";
 $locale['025'] = "Erneut Pr&uuml;fen";
 
@@ -44,7 +44,7 @@ $locale['041'] = "Die Konfiguration wurde erstellt.";
 $locale['042'] = "Die Datenbank Tabellen wurden erstellt.";
 $locale['043'] = "Fehler:";
 $locale['044'] = "Die Verbindung zu dem MySQL-Server konnte nicht hergestellt werden.";
-$locale['045'] = "Bitte &uuml;berpr&uuml;fe, ob dein Benutzername und dein Passwort korrekt ist.";
+$locale['045'] = "Bitte &uuml;berpr&uuml;fe, ob dein Benutzername oder dein Passwort fehlerhaft ist.";
 $locale['046'] = "Die Konfiguration konnte nicht erstellt werden.";
 $locale['047'] = "Bitte &uuml;berpr&uuml;fe, ob die config.php schreibbar ist.";
 $locale['048'] = "Die Datenbank Tabellen konnten nicht erstellt werden.";
@@ -59,10 +59,10 @@ $locale['056'] = "Leere Felder.";
 $locale['057'] = "Du musst alle Felder ausf&uuml;llen.";
 
 // Schritt 5
-$locale['060'] = "Bitte gib hier die Daten an, welche du f&uuml;r deinen Seiten Administrator Account verwenden m&ouml;chtest.";
+$locale['060'] = "Bitte gib hier die Daten f&uuml;r deinen Seiten Administrator Account an.";
 $locale['061'] = "Benutzername:";
-$locale['062'] = "Login Passwort:";
-$locale['063'] = "Login Passwort best&auml;tigen:";
+$locale['062'] = "Passwort:";
+$locale['063'] = "Passwort best&auml;tigen:";
 $locale['064'] = "Admin Passwort:";
 $locale['065'] = "Admin Passwort best&auml;tigen:";
 $locale['066'] = "E-Mail Adresse:";
@@ -113,8 +113,8 @@ $locale['105']  = "Smileys";
 $locale['106']  = "Einsendungen";
 $locale['107']  = "Update";
 $locale['108']  = "Benutzergruppen";
-$locale['109']  = "Weblink Kategorien";
-$locale['110']  = "Weblinks";
+$locale['109']  = "Link Kategorien";
+$locale['110']  = "Links";
 $locale['111']  = "Allgemeines";
 $locale['112']  = "Zeit und Datum";
 $locale['113']  = "Forum";
@@ -147,7 +147,7 @@ $locale['136'] = "News Kategorien";
 $locale['137'] = "Weblinks";
 $locale['138'] = "Fotogalerie";
 $locale['139'] = "Suche";
-$locale['140'] = "Weblink einsenden";
+$locale['140'] = "Link einsenden";
 $locale['141'] = "News einsenden";
 $locale['142'] = "Artikel einsenden";
 $locale['143'] = "Foto einsenden";
@@ -216,7 +216,7 @@ $locale['230'] = "Herzlich Willkommen auf deiner eigenen Homepage!";
 // Abschlussnachricht
 $locale['240']  = "Die Installation von PHP-Fusion v7 ist nun abgeschlossen und benutzbar.<br />\n";
 $locale['240'] .= "Sobald du unterhalb auf &quot;<em>Weiter</em>&quot; klickst, kommst du auf deine neue Homepage.<br />\n";
-$locale['240'] .= "<strong>ACHTUNG</strong> Nachdem du deine Homepage betretten hast, l&ouml;sche unbediengt die <strong>setup.php</strong> vom Server und setzte die <strong>Schreibrechte der config.php auf 0644</strong>! ";
+$locale['240'] .= "<strong>ACHTUNG</strong> Nachdem du deine Homepage betreten hast, l&ouml;sche unbedingt die <strong>setup.php</strong> von deinem Server und setzte die <strong>Schreibrechte der config.php auf 0644</strong>! ";
 $locale['240'] .= "Andersfalls entsteht eine Sicherheitsl&uuml;cke.<br />\n";
 $locale['240'] .= "Vielen Dank, dass du dich f&uuml;r PHP-Fusion entschieden hast.\n";
 
