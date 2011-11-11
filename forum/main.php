@@ -162,8 +162,8 @@ $locale['forumStats_maxOnline']     = "Online-Rekord: %s Benutzer am %s";
 $locale['forumSimilarThreads_title'] = "&Auml;hnliche Themen";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['463']  = utf8_encode($locale['463']);
-$locale['518']  = utf8_encode($locale['518']);
-$locale['518a'] = utf8_encode($locale['518a']);
+#$locale['463']  = utf8_encode($locale['463']);
+#$locale['518']  = utf8_encode($locale['518']);
+#$locale['518a'] = utf8_encode($locale['518a']);
        
 ?>
