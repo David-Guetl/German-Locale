@@ -11,16 +11,16 @@ $locale['406'] = "Version";
 $locale['407'] = "Entwickler";
 $locale['408'] = "Kontakt";
 $locale['409'] = "E-Mail";
-$locale['410'] = "Web";
+$locale['410'] = "Homepage";
 $locale['411'] = "Deinstallieren";
 $locale['412'] = "Willst du diese Infusion wirklich deinstallieren?";
-$locale['413'] = "Schl&uuml;ssel:";
+$locale['413'] = "Legende:";
 $locale['414'] = "Nicht Installiert";
 $locale['415'] = "Installiert";
 $locale['416'] = "Update verf&uuml;gbar";
 $locale['417'] = "Keine Infusionen verf&uuml;gbar.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['412'] = utf8_encode($locale['412']);
+#$locale['412'] = utf8_encode($locale['412']);
 
 ?>
