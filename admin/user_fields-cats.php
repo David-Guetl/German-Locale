@@ -32,9 +32,9 @@ $locale['443'] = "Abw&auml;rts";
 $locale['444'] = "Sortierung der Benutzerfelder Kategorien erneuern";
 
 // Benutzerfelder Kategorie loeschen
-$locale['450'] = "Willst du diese Benutzerfelder Kategorie wirklich löschen?";
+$locale['450'] = "Willst du diese Benutzerfelder Kategorie wirklich lÃ¶schen?";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['450'] = utf8_encode($locale['450']);
+#$locale['450'] = utf8_encode($locale['450']);
 
 ?>
