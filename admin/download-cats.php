@@ -33,11 +33,11 @@ $locale['444'] = "L&ouml;schen";
 $locale['445'] = "Keine Download Kategorien definiert.";
 
 // Javascript Alerts / Fehlermeldungen
-$locale['450'] = "Willst du diese Kategorie wirklich löschen?";
+$locale['450'] = "Willst du diese Kategorie wirklich lÃ¶schen?";
 $locale['460'] = "Du musst einen Namen f&uuml;r die Kategorie angeben.";
 $locale['461'] = "Es existiert bereits eine Kategorie mit diesen Namen.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['450'] = utf8_encode($locale['450']);
+#$locale['450'] = utf8_encode($locale['450']);
 
 ?>
