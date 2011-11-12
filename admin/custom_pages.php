@@ -25,12 +25,12 @@ $locale['429'] = "Vorschau";
 $locale['430'] = "Seite speichern";
 
 // Javascript Alerts / Warnungen
-$locale['450']  = "Willst du diese eigene Seite wirklich löschen?";
+$locale['450']  = "Willst du diese eigene Seite wirklich lÃ¶schen?";
 $locale['451']  = "Du musst einen Seitentitel angeben.";
 $locale['452']  = "Du musst dein Admin Passwort angeben.";
 $locale['453']  = "Das Admin Passwort ist nicht korrekt.";
 $locale['454']  = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['454'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert werden.";
+$locale['454'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
 $locale['455']  = "Kommentare";
 $locale['456']  = "Bewertungen";
 $locale['457']  = $locale['455']." und ".$locale['456'];
@@ -41,8 +41,8 @@ $locale['461'] = "Aktivieren";
 $locale['462'] = "Deaktivieren";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['450'] = utf8_encode($locale['450']);
-$locale['451'] = utf8_encode($locale['451']);
-$locale['452'] = utf8_encode($locale['452']);
+#$locale['450'] = utf8_encode($locale['450']);
+#$locale['451'] = utf8_encode($locale['451']);
+#$locale['452'] = utf8_encode($locale['452']);
 
 ?>
