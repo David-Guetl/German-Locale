@@ -1,6 +1,6 @@
 <?php
 
-// benutzerlog Allgemein
+// Benutzerlog Allgemein
 $locale['100'] = "Benutzerlog";
 $locale['101'] = "ID";
 $locale['102'] = "Datum";
