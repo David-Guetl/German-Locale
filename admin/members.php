@@ -12,7 +12,7 @@ $locale['407'] = "Aktivieren";
 $locale['408'] = "Entsperren";
 $locale['409'] = "Sperren";
 $locale['410'] = "L&ouml;schen";
-$locale['411'] = (%s == "" ? "Es gibt keine Mitglieder" : "Es gibt keine Mitglieder, welche %s wurden");
+$locale['411'] = "Es gibt keine %s Mitglieder";
 $locale['412'] = ", beginnend mit ";
 $locale['413'] = ", zutreffend ";
 $locale['414'] = "Alle anzeigen";
