@@ -12,7 +12,7 @@ $locale['407'] = "Aktivieren";
 $locale['408'] = "Entsperren";
 $locale['409'] = "Sperren";
 $locale['410'] = "L&ouml;schen";
-$locale['411'] = "Es gibt keine Mitglieder, welche %s wurden";
+$locale['411'] = (%s == "" ? "Es gibt keine Mitglieder" : "Es gibt keine Mitglieder, welche %s wurden");
 $locale['412'] = ", beginnend mit ";
 $locale['413'] = ", zutreffend ";
 $locale['414'] = "Alle anzeigen";
@@ -26,7 +26,7 @@ $locale['419'] = "Zur&uuml;cksetzten";
 $locale['420'] = "Die Sperre wurde gespeichert.";
 $locale['421'] = "Die Sperre wurde aufgehoben.";
 $locale['422'] = "Der Benutzer wurde gel&ouml;scht.";
-$locale['423'] = "Willst du diesen Benutzer wirklich löschen?";
+$locale['423'] = "Willst du diesen Benutzer wirklich lÃ¶schen?";
 $locale['424'] = "Der Benutzer wurde aktiviert.";
 
 // Mitglied bearbeiten
@@ -35,8 +35,6 @@ $locale['431'] = "Der Benutzer wurde aktualisiert.";
 $locale['432'] = "Zur&uuml;ck zur Benutzer Verwaltung";
 $locale['433'] = "Zur&uuml;ck zur Administrations &Uuml;bersicht";
 $locale['434'] = "Der Benutzer konnte nicht aktualisiert werden:";
-
-// Mitglied bearbeiten Formular
 $locale['440'] = "&Auml;nderungen speichern";
 
 // Aenderungen speichern Fehler
@@ -45,7 +43,7 @@ $locale['451'] = "Du musst einen Benutzernamen und eine E-Mail Adresse angeben."
 $locale['452'] = "Der Benutzername enth&auml;hlt ung&uuml;ltige Zeichen.";
 $locale['453'] = "Der Benutzername &quot;<em>".(isset($_POST['user_name']) ? $_POST['user_name'] : "")."</em>&quot; ist bereits in Verwendung.";
 $locale['454'] = "Die angegebene E-Mail Adresse ist fehlerhaft oder enth&auml;lt ung&uuml;ltige Zeichen.";
-$locale['455'] = "Doe E-Mail Adresse &quot;<e,>".(isset($_POST['user_email']) ? $_POST['user_email'] : "")."</em>&quot; ist bereits in Verwendung.";
+$locale['455'] = "Die E-Mail Adresse &quot;<em>".(isset($_POST['user_email']) ? $_POST['user_email'] : "")."</em>&quot; ist bereits in Verwendung.";
 $locale['456'] = "Die neuen Passw&ouml;rter stimmen nicht &uuml;berein.";
 $locale['457'] = "Das Passwort enth&aum;lt ung&uuml;ltige Zeichen.<br />\n";
 $locale['457'] .= "Das Passwort muss mindestens 8 Zeichen lang sein.<br />\n";
@@ -104,15 +102,15 @@ $locale['573'] = "Tempor&auml;re Sperre aufgehoben";
 $locale['574'] = "Benutzer deaktiviert";
 $locale['575'] = "Benutzer reaktiviert";
 $locale['576'] = "Account aufgel&ouml;st";
-$locale['577'] = "Accountaufl&ouml;sung r&uuml;ckgangig gemacht";
+$locale['577'] = "Accountaufl&ouml;sung r&uuml;ckg&auml;ngig gemacht";
 $locale['578'] = "Account aufgel&ouml;st und anonymisiert";
-$locale['579'] = "Account Anonymisierung r&uuml;ckgangig gemacht";
+$locale['579'] = "Account Anonymisierung r&uuml;ckg&auml;ngig gemacht";
 $locale['580'] = "Inaktive Benutzer reaktivieren";
 $locale['581'] = "Du hast mehr als 50 inaktive Benutzer und musst den Deaktivierungsprozess noch <strong>%d mal</strong> durchf&uuml;hren.";
 $locale['582'] = "Reaktivieren";
 $locale['583'] = "Wieder einsetzen";
 $locale['584'] = "W&auml;hle neuen Status";
-$locale['585'] = "Dieser Benutzer wurde urspr&uuml;nglich aus Sicherheitsgr&uuml;nden gesperrt! Bist du dir sicher, dass du diesen Benutzer entsperren willst?";
+$locale['585'] = "Dieser Benutzer wurde urspr&uuml;nglich aus Sicherheitsgr&uuml;nden gesperrt! Bist du dir sicher, dass du diesen Benutzer entsperren m&ouml;chtest?";
 $locale['590'] = "Tempor&auml;re Sperre f&uuml;r";
 $locale['591'] = "Tempor&auml;re Sperre aufheben f&uuml;r";
 $locale['592'] = "tempor&auml;re Sperre";
@@ -123,12 +121,12 @@ $locale['596'] = "Dauer:";
 $locale['600'] = "Sicherheitssperre";
 $locale['601'] = "aus Sicherheitsgr&uuml;nden sperrst";
 $locale['602'] = "Sperre aufheben";
-$locale['603'] = "Sperre aufhebst";
+$locale['603'] = "Sperre aufheben";
 $locale['604'] = "Grund:";
 
 // Deactivation System
-$locale['610'] = "<strong>%d Benutzer</strong> waren nicht eingeloggt seit <strong>%d Tag(en)</strong> und wurden als inaktiv gekennzeichnet. Durch die Deativierung haben diese Benutzer <strong>%d Tag(e)</strong> Zeit bevor Sie %s werden.";
-$locale['611'] = "Bitte beachte, dass einige Benutzer Inhalte eingereicht haben wie z.B. Forenbeitr&auml;ge, Kommentare, Fotos usw., diese werden gel&ouml;scht, sobald die deaktivierten Benutzer gel&ouml;scht werden.";
+$locale['610'] = "<strong>%d Benutzer</strong> waren nicht eingeloggt seit <strong>%d Tag(en)</strong> und wurden als inaktiv gekennzeichnet. Durch die Deaktivierung haben diese Benutzer <strong>%d Tag(e)</strong> Zeit bevor Sie %s werden.";
+$locale['611'] = "Bitte beachte, dass einige Benutzer Inhalte eingereicht haben wie z.B. Forenbeitr&auml;ge, Kommentare, Fotos usw. Diese werden gel&ouml;scht, sobald die deaktivierten Benutzer gel&ouml;scht werden.";
 $locale['612'] = "Benutzer";
 $locale['613'] = "Benutzer";
 $locale['614'] = "Deaktivieren";
