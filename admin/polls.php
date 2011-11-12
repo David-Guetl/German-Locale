@@ -16,7 +16,7 @@ $locale['420'] = "Aktuell vorhandene Umfragen";
 $locale['421'] = "Bearbeiten";
 $locale['422'] = "L&ouml;schen";
 
-// Umfragen Formular
+// Umfragen Formular 
 $locale['430'] = "Abstimmen";
 $locale['431'] = "Titel:";
 $locale['432'] = "Antwort ";
