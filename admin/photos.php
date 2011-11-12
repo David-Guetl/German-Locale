@@ -14,7 +14,7 @@ $locale['413'] = "Das Foto wurde gel&ouml;scht.";
 $locale['414'] = "Folgende(r) Fehler sind/ist aufgetreten:";
 $locale['415'] = "Der Dateiname des Bildes ist ung&uuml;ltig.";
 $locale['416'] = "Das Bild muss kleiner als %s sein.";
-$locale['417'] = "Das Bild muss eine GIF-, JPEG- oder PNG-Datei sein.";
+$locale['417'] = "Das Bild muss eine .GIF, .JPEG oder .PNG-Datei sein.";
 $locale['418'] = "Das Bild muss kleiner als %uw x %uh Pixel sein.";
 $locale['419'] = "Das Foto / Die Fotos wurde(n) verschoben.";
 $locale['420'] = "Es wurde keine GD-Bibliothek gefunden. Fotoalben funktionieren jedoch nicht ohne GD Bibliothek. Bitte kontaktiere deinen Hoster und informiere ihn &uuml;ber dieses Problem.";
@@ -80,7 +80,7 @@ $locale['503'] = "Bitte gib den Ordner die CHMOD-Rechte 0777 und lade diese Seit
 $locale['504'] = "Neu Laden";
 $locale['505'] = "1. Lade die Fotos nach <em>%s</em> hoch.";
 $locale['506'] = "2. W&auml;hle die Fotos, die du in das Album <strong>%s</strong> hinzuf&uuml;gen m&ouml;chtest.";
-$locale['507'] = "3. Du kannst auch mehrere Fotos ausw&auml;hlen, indem du bei dem w&auml;hlen die Tasten [SHIFT] oder [CTRL] h&auml;ltst.";
+$locale['507'] = "3. Du kannst auch mehrere Fotos ausw&auml;hlen, indem du bei dem w&auml;hlen die Tasten [SHIFT] oder [STRG] h&auml;ltst.";
 $locale['508'] = "Fotos ausw&auml;hlen:";
 $locale['509'] = "Fotos hinzuf&uuml;gen";
 $locale['510'] = "Es wurden keine Fotos gefunden";
@@ -94,7 +94,7 @@ $locale['523'] = $locale['521']." und ".$locale['522'];
 
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['481'] = utf8_encode($locale['481']);
-$locale['482'] = utf8_encode($locale['482']);
+#$locale['481'] = utf8_encode($locale['481']);
+#$locale['482'] = utf8_encode($locale['482']);
 
 ?>
