@@ -29,8 +29,8 @@ $locale['462'] = "Optionen";
 $locale['463'] = "Bearbeiten";
 $locale['464'] = "L&ouml;schen";
 $locale['465'] = "Keine Blacklist Eintr&auml;ge definiert.";
-$locale['466'] = "N/A";
-$locale['467'] = "Admin";
+$locale['466'] = "Nicht verf&uuml;gbar";
+$locale['467'] = "Administrator";
 $locale['468'] = "Datum";
 
 // IPv6 Spezial
