@@ -19,7 +19,7 @@ $locale['424'] = "Position:";
 $locale['425'] = "Nur im Navigationspanel";
 $locale['426'] = "Im Header und im Navigationspanel";
 $locale['427'] = "Nur im Header";
-$locale['428'] = "Diesen Link als neues Fenster &ouml;ffnen.";
+$locale['428'] = "Diesen Navigationslink als neues Fenster &ouml;ffnen.";
 $locale['429'] = "Navigationslink speichern";
 
 // Aktuelle Navigationslinks
@@ -40,9 +40,9 @@ $locale['454'] = "Sortierung der Navigationslinks erneuern.";
 $locale['455'] = "Die Navigationslinks Reihenfolge wurde aktualisiert.";
 
 // Navigationslink loeschen
-$locale['460'] = "Willst du diesen Navigationslink wirklich löschen?";
+$locale['460'] = "Willst du diesen Navigationslink wirklich lÃ¶schen?";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['460'] = utf8_encode($locale['460']);
+#$locale['460'] = utf8_encode($locale['460']);
 
 ?>
