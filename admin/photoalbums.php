@@ -14,7 +14,7 @@ $locale['413']  = "Das Album wurde gel&ouml;scht.";
 $locale['414']  = "Folgende(r) Fehler sind/ist aufgetreten:";
 $locale['415']  = "Der Dateiname des Bildes ist ung&uuml;ltig.";
 $locale['416']  = "Das Bild muss kleiner als %s sein.";
-$locale['417']  = "Das Bild muss eine GIF-, JPEG- oder PNG-Datei sein.";
+$locale['417']  = "Das Bild muss eine .GIF-, .JPEG- oder .PNG-Datei sein.";
 $locale['418']  = "Das Bild muss kleiner als %uw x %uh Pixel sein.";
 $locale['419']  = "Das Album konnte nicht gel&ouml;scht werden.<br />\n";
 $locale['419'] .= "Du hast kein Admin Passwort angegeben oder es ist fehlerhaft.";
@@ -50,9 +50,9 @@ $locale['470'] = "Sortierung der Alben erneuern";
 $locale['471'] = "Keine Alben definiert.";
 
 // Album loeschen
-$locale['500'] = "Willst du dieses Album wirklich löschen?";
+$locale['500'] = "Willst du dieses Album wirklich lÃ¶schen?";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['500'] = utf8_encode($locale['500']);
+#$locale['500'] = utf8_encode($locale['500']);
 
 ?>
