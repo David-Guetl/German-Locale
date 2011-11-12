@@ -1,6 +1,6 @@
 <?php
 
-// Bild löschen
+// Bild loeschen
 $locale['400'] = "Bild l&ouml;schen";
 $locale['401'] = "Das Bild wurde gel&ouml;scht.";
 $locale['402'] = "Zur&uuml;ck zur Bilder Verwaltung";
@@ -29,9 +29,9 @@ $locale['463'] = "Dieser Ordner ist leer.";
 $locale['464'] = "Die Bilderliste des TinyMCEs Editor erneuern";
 
 // Javascript Alerts
-$locale['470'] = "Willst du dieses Bild wirklich löschen?";
+$locale['470'] = "Willst du dieses Bild wirklich lÃ¶schen?";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['470'] = utf8_encode($locale['470']);
+#$locale['470'] = utf8_encode($locale['470']);
 
 ?>
