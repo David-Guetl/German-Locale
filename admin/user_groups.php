@@ -7,14 +7,14 @@ $locale['402'] = "Die ausgew&auml;hlten Benutzer wurden von der Benutzergruppe g
 $locale['403'] = "Alle Benutzer wurden von der Benutzergruppe gel&ouml;scht.";
 $locale['404'] = "Die ausgew&auml;hlten Benutzer wurden der Benutzergruppe hinzugef&uuml;gt.";
 $locale['405'] = "Die Benutzergruppe konnte nicht gel&ouml;scht werden.";
-$locale['406'] = "Es befinden sich noch Benutzer in dieser Kategorie.";
+$locale['406'] = "Es befinden sich noch Benutzer in dieser Gruppe.";
 $locale['407'] = "Die Benutzergruppe wurde gel&ouml;scht.";
 
 // Optionen
 $locale['420'] = "Aktuell vorhandene Benutzergruppen";
 $locale['421'] = "Bearbeiten";
 $locale['422'] = "L&ouml;schen";
-$locale['423'] = "Willst du diese Benutzergruppe wirklich löschen?";
+$locale['423'] = "Willst du diese Benutzergruppe wirklich lÃ¶schen?";
 
 // Benutzergruppe bearbeiten/hinzufuegen
 $locale['430'] = "Benutzergruppe bearbeiten";
@@ -45,6 +45,6 @@ $locale['462'] = "Alle Benutzer entfernen";
 $locale['463'] = "Es befinden sich keine Benutzer in dieser Gruppe.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['423'] = utf8_encode($locale['423']);
+#$locale['423'] = utf8_encode($locale['423']);
 
 ?>
