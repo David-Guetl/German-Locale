@@ -11,7 +11,7 @@
 | Benutzer welche Mitgeholfen haben (Accountname)  |
 | - Sascha                                         |
 | - ghost2k                                        |
-| - Hads                                           |
+| - Dav (frueher Hads)                             |
 | - Layzee                                         |
 | - MarcusG                                        |
 | - Sunflow1991                                    |
