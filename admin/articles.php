@@ -29,19 +29,19 @@ $locale['433'] = "[ENTWURF]";
 
 // Javascript Alerts und Fehlermeldungen/Warnungen
 $locale['450'] = "Du musst einen Betreff angeben.";
-$locale['451'] = "Willst du diesen Artikel wirklich löschen?";
+$locale['451'] = "Willst du diesen Artikel wirklich lÃ¶schen?";
 $locale['452'] = "Keine Artikel Kategorien definiert.";
 $locale['453'] = "Du musst mindestens eine Artikel Kategorie anlegen, bevor du einen Artikel hinzuf&uuml;gen kannst.";
 $locale['454'] = "Klicke hier";
 $locale['455'] = " um zu den Artikel Kategorien zu wechseln.";
 $locale['456'] = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['456'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert werden.";
+$locale['456'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
 $locale['457'] = "Kommentare";
 $locale['458'] = "Bewertungen";
 $locale['459'] = $locale['457']." und ".$locale['458'];
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['450'] = utf8_encode($locale['450']);
-$locale['451'] = utf8_encode($locale['451']);
+#$locale['450'] = utf8_encode($locale['450']);
+#$locale['451'] = utf8_encode($locale['451']);
 
 ?>
