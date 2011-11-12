@@ -71,6 +71,7 @@ $locale['513']  = "Smileys in diesem Beitrag deaktivieren.";
 $locale['513a'] = "Signatur in diesem Beitrag anzeigen.";
 $locale['513b'] = "Benachrichtigen wenn Jemand geantwortet hat.";
 $locale['514']  = "Antworten";
+$locale['514a'] = "Vorschau";
 $locale['515']  = "Dieses Thema nicht mehr verfolgen";
 $locale['516']  = "Dieses Thema verfolgen";
 $locale['517']  = "Beitr&auml;ge l&ouml;schen";
