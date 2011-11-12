@@ -14,7 +14,7 @@ $locale['420'] = "Links";
 $locale['421'] = "Mitte Oben";
 $locale['422'] = "Rechts";
 $locale['423'] = "Datei";
-$locale['424'] = "PHP";
+$locale['424'] = "PHP-Code";
 $locale['425'] = "Mitte Unten";
 
 // Panel Optionen
@@ -28,7 +28,7 @@ $locale['436'] = "Deaktivieren";
 $locale['437'] = "L&ouml;schen";
 $locale['438'] = "Neues Panel";
 $locale['439'] = "Sortierung der Panels erneuern";
-$locale['440'] = "Willst du dieses Panel wirklich löschen?";
+$locale['440'] = "Willst du dieses Panel wirklich lÃ¶schen?";
 $locale['441'] = "Links";
 $locale['442'] = "Rechts";
 $locale['443'] = "Aufw&auml;rts";
@@ -60,7 +60,7 @@ $locale['471'] = "Es existiert bereits ein Panel mit diesen Namen.";
 $locale['472'] = "Du musst einen Inhalt angeben.";
 $locale['473'] = "Du musst einen Dateinamen ausw&auml;hlen.";
 $locale['474'] = "Das Admin Passwort wurde nicht angegeben oder ist nicht korrekt.";
-$locale['475'] = "Du musst die Option &quot;<em>Dieses Panel auf allen Seiten anzeigen.</em>&quot; ausw&auml;hlen, wenn du f&uuml;r mittlere Panels, Seitenregeln festlegen m&ouml;chtest.";
+$locale['475'] = "Du musst die Option &quot;<em>Dieses Panel auf allen Seiten anzeigen.</em>&quot; ausw&auml;hlen, wenn du f&uuml;r mittlere Panels Seitenregeln festlegen m&ouml;chtest.";
 
 // Panel aktualisieren/hinzufuegen Erfolgreich/Fehler
 $locale['480'] = "Panel bearbeiten";
@@ -74,6 +74,6 @@ $locale['487'] = "Zur&uuml;ck zur Adminbereichs &Uuml;bersicht";
 $locale['488'] = "Die Sortierung der Panels wurde erneuert.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['440'] = utf8_encode($locale['440']);
+#$locale['440'] = utf8_encode($locale['440']);
 
 ?>
