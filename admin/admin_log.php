@@ -1,13 +1,5 @@
 <?php
 
-// v7.03.xx Locale
-// Last Update: 26.07.2011
-
-if (!defined("IN_FUSION")) { 
-	header("Location: ../../../index.php");
-	exit;
-}
-
 $locale['100'] = "Administratoren Log";
 $locale['101'] = "Datum";
 $locale['102'] = "Seite";
@@ -38,7 +30,7 @@ $locale['304'] = "Einstellungen";
 $locale['add']             = "Hinzuf&uuml;gen";
 $locale['edit']            = "Bearbeiten";
 $locale['delete']          = "L&ouml;schen";
-$locale['passwordReset']   = "Passwort zur&uuml;cksetzten";
+$locale['passwordReset']   = "Passwort zur&uuml;cksetzen";
 $locale['addAdmin']        = "Administrator hinzuf&uuml;gen";
 $locale['addSuperAdmin']   = "Seiten Administrator hinzuf&uuml;gen";
 $locale['deleteAdmin']     = "Administrator l&ouml;schen";
@@ -56,7 +48,7 @@ $locale['defuse']          = "Infusion deinstallieren";
 $locale['deleteAlbum']     = "Album l&ouml;schen";
 $locale['addAlbum']        = "Album hinzuf&uuml;gen";
 $locale['editAlbum']       = "Album bearbeiten";
-$locale['publishLink']     = "Weblink ver&ouml;ffentlichen";
+$locale['publishLink']     = "Link ver&ouml;ffentlichen";
 $locale['publishNews']     = "News ver&ouml;ffentlichen";
 $locale['publishArticle']  = "Artikel ver&ouml;ffentlichen";
 $locale['publishDownload'] = "Download ver&ouml;ffentlichen";
