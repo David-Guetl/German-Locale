@@ -8,10 +8,10 @@ $locale['403'] = "Zur&uuml;ck zur Administrations &Uuml;bersicht";
 
 // Aktuell vorhandene Einsendungen
 $locale['410'] = "Aktuell vorhandene Einsendungen";
-$locale['411'] = "Weblinks";
+$locale['411'] = "Links";
 $locale['412'] = "News";
 $locale['413'] = "Artikel";
-$locale['414'] = "Aktuell wurden keine Weblinks eingesendet.";
+$locale['414'] = "Aktuell wurden keine Links eingesendet.";
 $locale['415'] = "Aktuell wurden keine News eingesendet.";
 $locale['416'] = "Aktuell wurden keine Artikel eingesendet.";
 $locale['417'] = "Anzeigen";
@@ -21,17 +21,17 @@ $locale['420'] = "Aktuell wurden keine Fotos eingesendet.";
 $locale['421'] = "Downloads";
 $locale['422'] = "Aktuell wurden keine Downloads eingesendet.";
 
-// Weblinks hinzufuegen/Loeschen
-$locale['430'] = "Weblink Einsendung";
-$locale['431'] = "Der Weblink wurde ver&ouml;ffentlicht.";
-$locale['432'] = "Weblink Einsendung";
-$locale['433'] = "Der Weblink wurde gel&ouml;scht.";
+// Links hinzufuegen/Loeschen
+$locale['430'] = "Link Einsendung";
+$locale['431'] = "Der Link wurde ver&ouml;ffentlicht.";
+$locale['432'] = "Link Einsendung";
+$locale['433'] = "Der Link wurde gel&ouml;scht.";
 $locale['434'] = "Keine Kategorien";
 
-// Weblinks Formular
-$locale['440'] = "Weblink Einsendung ansehen";
-$locale['441'] = "Der folgende Weblink wurde eingesendet von ";
-$locale['442'] = " am ";
+// Links Formular
+$locale['440'] = "Link Einsendung ansehen";
+$locale['441'] = "Der folgende Link wurde eingesendet von ";
+$locale['442'] = ", ";
 $locale['443'] = "Kategorie:";
 $locale['444'] = "Name:";
 $locale['445'] = "Adresse:";
@@ -116,16 +116,16 @@ $locale['649']  = "Lizenz:";
 $locale['650']  = "O/S:";
 $locale['651']  = "Version:";
 $locale['652']  = "Dateigr&ouml;&szlig;e:";
-$locale['653']  = "Screenshoot:";
+$locale['653']  = "Screenshot:";
 $locale['654']  = "Homepage:";
 $locale['655']  = "Copyright:";
 $locale['656']  = "Kommentare:";
 $locale['657']  = "Bewertungen:";
-$locale['658']  = "Screenshoot l&ouml;schen";
+$locale['658']  = "Screenshot l&ouml;schen";
 
 // Sonstiges
 $locale['660'] = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['660'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert werden.";
+$locale['660'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
 $locale['661'] = "Kommentare";
 $locale['662'] = "Bewertungen";
 $locale['663'] = $locale['661']." und ".$locale['662'];
