@@ -39,8 +39,8 @@ $locale['542'] = "Bearbeiten";
 $locale['543'] = "L&ouml;schen";
 $locale['544'] = "Es befinden sich keine FAQs in dieser Kategorie.";
 $locale['545'] = "Keine FAQ Kategorien definiert.";
-$locale['546'] = "Willst du diese FAQ Kategorie wirklich löschen?";
-$locale['547'] = "Willst du diese FAQ wirklich löschen?";
+$locale['546'] = "Willst du diese FAQ Kategorie wirklich lÃ¶schen?";
+$locale['547'] = "Willst du diese FAQ wirklich lÃ¶schen?";
 
 // Fehlermeldungen
 $locale['460'] = "Du musst einen Namen f&uuml;r die Kategorie angeben.";
@@ -48,7 +48,7 @@ $locale['461'] = "Es existiert bereits eine Kategorie mit diesen Namen.";
 $locale['462'] = "Du musst eine FAQ Frage sowie eine FAQ Antwort eingeben.";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['546'] = utf8_encode($locale['546']);
-$locale['547'] = utf8_encode($locale['547']);
+#$locale['546'] = utf8_encode($locale['546']);
+#$locale['547'] = utf8_encode($locale['547']);
 
 ?>
