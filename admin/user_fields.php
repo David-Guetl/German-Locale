@@ -11,9 +11,9 @@ $locale['406'] = "Aufw&auml;rts";
 $locale['407'] = "Bearbeiten";
 $locale['408'] = "L&ouml;schen";
 $locale['409'] = "Sortierung der Benutzerfelder erneuern";
-$locale['410'] = "WARNUNG: Wenn du das Benutzerfeld löscht, werden alle dazugehörigen Daten ebenfalls gelöscht!";
+$locale['410'] = "WARNUNG: Wenn du das Benutzerfeld lÃ¶scht, werden alle dazugehÃ¶rigen Daten ebenfalls gelÃ¶scht!";
 $locale['411'] = "Fehler";
-$locale['412'] = "Bitte &uuml;berpr&uuml;fe die Dateien des Benutzerfelds %s!";
+$locale['412'] = "Bitte &uuml;berpr&uuml;fe die Dateien des Benutzerfeldes %s!";
 
 // Benutzerfeld aktivieren/bearbeiten
 $locale['420'] = "Benutzerfeld bearbeiten";
@@ -46,6 +46,6 @@ $locale['453'] = "Statistiken";
 $locale['480'] = "Registration";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['410'] = utf8_encode($locale['410']);
+#$locale['410'] = utf8_encode($locale['410']);
 
 ?>
