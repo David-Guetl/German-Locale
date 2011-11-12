@@ -12,10 +12,10 @@ $locale['412']  = "Der Download wurde gel&ouml;scht.";
 $locale['413']  = "Ein Fehler ist aufgetreten:";
 $locale['414']  = "Der Dateiname ist ung&uuml;ltig.";
 $locale['415']  = "Die Datei muss kleiner als %s sein.";
-$locale['415a'] = "Der Screenshoot muss kleiner als %s sein.";
-$locale['415b'] = "Der Screenshoot muss kleiner als %s sein.";
+$locale['415a'] = "Der Screenshot muss kleiner als %s sein.";
+$locale['415b'] = "Der Screenshot muss kleiner als %s sein.";
 $locale['416']  = "Die Datei muss einer der folgenden Dateitypen sein: %s.";
-$locale['416a'] = "Der Screenshoot muss einer der folgenden Dateitypen sein: %s.";
+$locale['416a'] = "Der Screenshot muss einer der folgenden Dateitypen sein: %s.";
 $locale['417']  = "Du musst einen Namen f&uuml;r den Download angeben.";
 $locale['418']  = "Du musst eine Datei anh&auml;ngen oder eine Download Adresse angeben.";
 $locale['419']  = "Du musst eine Kurzbeschreibung angeben.";
@@ -38,8 +38,8 @@ $locale['431'] = "L&ouml;schen";
 $locale['432'] = "Die Dateigr&ouml;&szlig;e berechnen.";
 $locale['433'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s";
 $locale['433b'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: %s / Maximale Breite: %spx / Maximale H&ouml;he: %spx";
-$locale['434'] = "Screenshoot:";
-$locale['435'] = "Webseite:";
+$locale['434'] = "Screenshot:";
+$locale['435'] = "Homepage:";
 $locale['436'] = "Copyright:";
 $locale['437'] = "Kommentare:";
 $locale['438'] = "Bewertungen:";
@@ -57,14 +57,14 @@ $locale['451'] = "Keine Download Kategorie definiert.";
 $locale['452'] = "Du musst mindestens eine Download Kategorie anlegen, bevor du einen Download hinzuf&uuml;gen kannst.";
 $locale['453'] = "Klicke hier";
 $locale['454'] = " um zu den Download Kategorien zu wechseln.";
-$locale['460'] = "Willst du diesen Download wirklich löschen?";
+$locale['460'] = "Willst du diesen Download wirklich lÃ¶schen?";
 $locale['461'] = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['461'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert werden.";
+$locale['461'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
 $locale['462'] = "Kommentare";
 $locale['463'] = "Bewertungen";
 $locale['464'] = $locale['462']." und ".$locale['463'];
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['460'] = utf8_encode($locale['460']);
+#$locale['460'] = utf8_encode($locale['460']);
 
 ?>
