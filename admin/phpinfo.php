@@ -3,8 +3,8 @@
 // PHP Information
 $locale['400'] = "PHP Information";
 
-// Hauptmerkmale
-$locale['401'] = "Hauptmerkmale";
+// Uebersicht
+$locale['401'] = "&Uuml;bersicht";
 $locale['402'] = "Server Software";
 $locale['403'] = "Webserver Software";
 $locale['404'] = "PHP Version";
@@ -25,7 +25,7 @@ $locale['425'] = "Unterst&uuml;tzung von";
 $locale['426'] = "Maximale Gr&ouml;&szlig;e von Dateiuploads";
 $locale['428'] = "Fehlermeldungen anzeigen";
 $locale['429'] = "Deaktivierte Funktionen";
-$locale['430'] = "N/A";
+$locale['430'] = "Nicht verf&uuml;gbar";
 $locale['431'] = "Version";
 
 // Schreibrechte
