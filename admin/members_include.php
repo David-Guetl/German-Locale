@@ -13,8 +13,8 @@ $locale['susp08'] = "Inaktiv";
 $locale['susp10'] = "Normalisieren"; // Not needed?
 $locale['susp11'] = "Sperren";
 $locale['susp12'] = "Unaktivieren";
-$locale['susp13'] = "tempor&auml;r sperren";
-$locale['susp14'] = "Sicherheitssperre";
+$locale['susp13'] = "Tempor&auml;r sperren";
+$locale['susp14'] = "Sicherheitssperren";
 $locale['susp15'] = "L&ouml;schen";
 $locale['susp16'] = "Anonymisieren";
 $locale['susp17'] = "Deaktivieren";
@@ -22,9 +22,9 @@ $locale['susp18'] = "Inaktivieren";
 
 $locale['susp_sys'] = "System Aktion";
 
-$locale['susp100'] = "Benutzerprotokoll-Eintr&auml;ge f&uuml;r %s";
-$locale['susp100b'] = "%s Protokoll-Eintr&auml;ge f&uuml;r %s";
-$locale['susp101'] = "Alle Benutzerprotokoll-Eintr&auml;ge f&uuml;r Benutzer %s";
+$locale['susp100'] = "Benutzerlog-Eintr&auml;ge f&uuml;r %s";
+$locale['susp100b'] = "%s Log-Eintr&auml;ge f&uuml;r %s";
+$locale['susp101'] = "Alle Log-Eintr&auml;ge f&uuml;r Benutzer %s";
 $locale['susp102'] = "Fr&uuml;here <strong>%s</strong> Eintr&auml;ge von Benutzer %s";
 $locale['susp103'] = "ID";
 $locale['susp104'] = "Datum";
