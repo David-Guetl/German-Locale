@@ -11,7 +11,7 @@ $locale['411'] = "Die News wurde aktualisiert.";
 $locale['412'] = "Die News wurde gel&ouml;scht.";
 $locale['413'] = "Der Dateiname des Bildes ist ung&uuml;ltig.";
 $locale['414'] = "Das Bild muss kleiner als %s sein.";
-$locale['415'] = "Das Bild muss eine GIF-, JPEG- oder PNG-Datei sein.";
+$locale['415'] = "Das Bild muss eine .GIF-, .JPEG- oder .PNG-Datei sein.";
 $locale['416'] = "Das Bild muss kleiner als %uw x %uh Pixel sein.";
 
 // News Formular
@@ -35,19 +35,19 @@ $locale['436'] = "Vorschau";
 $locale['437'] = "News speichern";
 $locale['438'] = "[ENTWURF]";
 $locale['439'] = "Bild";
-$locale['440'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: GIF, JPEG oder PNG.";
+$locale['440'] = "Maximale Dateigr&ouml;&szlig;e: %s / Erlaubte Dateitypen: .GIF, .JPEG oder .PNG.";
 
 // Javascript Alerts und Fehlermeldungen/Warnungen
 $locale['450']  = "Du musst einen Betreff angeben.";
-$locale['451']  = "Willst du diese News wirklich löschen?";
+$locale['451']  = "Willst du diese News wirklich lÃ¶schen?";
 $locale['452']  = "%s sind f&uuml;r alle Elemente deaktiviert.<br />\n";
-$locale['452'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert werden.";
+$locale['452'] .= "Diese Einstellung wird erst wirksam, wenn sie wieder aktiviert wird.";
 $locale['453']  = "Kommentare";
 $locale['454']  = "Bewertungen";
 $locale['455']  = $locale['453']." und ".$locale['454'];
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['450'] = utf8_encode($locale['450']);
-$locale['451'] = utf8_encode($locale['451']);
+#$locale['450'] = utf8_encode($locale['450']);
+#$locale['451'] = utf8_encode($locale['451']);
 
 ?>
