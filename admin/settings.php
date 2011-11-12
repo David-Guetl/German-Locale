@@ -121,7 +121,7 @@ $locale['616'] = "Foto Titel Farbe";
 $locale['617'] = "Erstellte Wasserzeichen speichern?";
 $locale['618'] = "Reduziert Servertraffic, braucht jedoch mehr Serverspeicher.";
 $locale['619'] = "Exestierende Wasserzeichen l&ouml;schen";
-$locale['620'] = "Willst du wirklich alle exestierenden Wasserzeichen löschen?";
+$locale['620'] = "Willst du wirklich alle exestierenden Wasserzeichen lï¿½schen?";
 
 // Sicherheits Einstellungen
 $locale['650'] = "Sonstiges";
@@ -279,6 +279,6 @@ $locale['dateformats'][] = "%d. %B %Y %H:%M:%S";
 $locale['dateformats'][] = "%d %B %Y %H:%M:%S";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['620'] = utf8_encode($locale['620']);
+#$locale['620'] = utf8_encode($locale['620']);
 
 ?>
