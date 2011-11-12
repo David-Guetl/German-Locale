@@ -29,20 +29,20 @@ $locale['427'] = "L&ouml;schen";
 
 // Adminrechte bearbeiten
 $locale['440'] = "Adminrechte bearbeiten";
-$locale['441'] = "Content Admin";
-$locale['442'] = "Benutzer Admin";
-$locale['443'] = "System Admin";
+$locale['441'] = "Inhalt";
+$locale['442'] = "Benutzer";
+$locale['443'] = "System";
 $locale['444'] = "Infusions";
 $locale['445'] = "Alle markieren";
 $locale['446'] = "Alle demarkieren";
 $locale['447'] = "Admin Passwort:";
 $locale['448'] = "Adminrechte speichern";
 $locale['449'] = "Einstellungen";
-$locale['450'] = "Alle sichere markieren";
+$locale['450'] = "Alle sicheren Rechte markieren";
 
 // Javascript Alert Nachrichten
-$locale['460'] = "Willst du diesen Administrator wirklich löschen?";
-$locale['461'] = "Willst du diesen Administrator wirklich hinzufügen?";
+$locale['460'] = "Willst du diesen Administrator wirklich lÃ¶schen?";
+$locale['461'] = "Willst du diesen Administrator wirklich hinzufÃ¼gen?";
 $locale['462'] = "Einem Benutzer diese Adminrechte zu geben ist ein Sicherheitsrisiko!";
 
 // Administrator entfernen
@@ -52,7 +52,7 @@ $locale['472'] = "Weiter";
 $locale['473'] = "Abbrechen";
 
 // BITTE AB HIER NICHT MEHR BEARBEITEN !!
-$locale['460'] = utf8_encode($locale['460']);
-$locale['461'] = utf8_encode($locale['461']);
+#$locale['460'] = utf8_encode($locale['460']);
+#$locale['461'] = utf8_encode($locale['461']);
 
 ?>
