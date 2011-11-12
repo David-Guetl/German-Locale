@@ -1,5 +1,6 @@
 <?php
 
+// Farben/Bilder Buttons
 $locale['html400'] = "- Farbe w&auml;hlen -";
 $locale['html401'] = "- Bild w&auml;hlen -";
 $locale['html402'] = "Kastanienbraun";
