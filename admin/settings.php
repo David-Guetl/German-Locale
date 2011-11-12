@@ -130,6 +130,7 @@ $locale['652'] = "Ein Wort pro Zeile.";
 $locale['653'] = "Falls nicht gebraucht, leer lassen.";
 $locale['654'] = "W&ouml;rter zensieren durch:";
 $locale['655'] = "G&auml;sten das posten erlauben?";
+$locale['656'] = "Avatare bei Kommentaren anzeigen?";
 $locale['657'] = "Wartungsmodus:";
 $locale['658'] = "Wartungsmodus Nachricht:";
 $locale['659'] = "Zensur aktivieren?";
@@ -241,19 +242,21 @@ $locale['959'] = "hochgeladenes Bild";
 $locale['960'] = "Kategorie Bild";
 
 // Benutzer Einstellungen
-$locale['1001'] = "Avatar Verh&auml;ltnis:";
-$locale['1002'] = "Deaktivierungssystem aktivieren?";
-$locale['1003'] = "Erlaubte Inaktivit&auml;t:";
-$locale['1004'] = "Anzahl der Tage bevor man deaktiviert wird.";
-$locale['1005'] = "Antwortzeit vor Deaktivierung:";
-$locale['1006'] = "Anzahl der Tage um die E-Mail zu beantworten.";
-$locale['1007'] = "Benutzer Profil Einstellungen";
-$locale['1008'] = "Avatar Gr&ouml;&szlig;e:";
-$locale['1009'] = "Breite x H&ouml;he";
-$locale['1010'] = "Maximale Dateigr&ouml;&szlig;e (Bytes):";
-$locale['1011'] = "Deaktivierungsaktion:";
-$locale['1012'] = "Benutzer anonymisieren";
-$locale['1013'] = "Benutzer l&ouml;schen";
+$locale['1001']  = "Avatar Verh&auml;ltnis:";
+$locale['1002']  = "Deaktivierungssystem aktivieren?";
+$locale['1003']  = "Erlaubte Inaktivit&auml;t:";
+$locale['1004']  = "Anzahl der Tage bevor man deaktiviert wird.";
+$locale['1005']  = "Antwortzeit vor Deaktivierung:";
+$locale['1006']  = "Anzahl der Tage um die E-Mail zu beantworten.";
+$locale['1007']  = "Benutzer Profil Einstellungen";
+$locale['1008']  = "Avatar Gr&ouml;&szlig;e:";
+$locale['1009']  = "Breite x H&ouml;he";
+$locale['1010']  = "Maximale Dateigr&ouml;&szlig;e (Bytes):";
+$locale['1011']  = "Deaktivierungsaktion:";
+$locale['1012']  = "Benutzer anonymisieren";
+$locale['1013']  = "Benutzer l&ouml;schen";
+$locale['1014']  = "Benutzern erlauben, sich von mehreren Computern gleichzeitig anzumelden?";
+$locale['1014a'] = "F&uuml;r mehr Sicherheit deaktivieren.";
 
 // Datumsformat Optionen
 $locale['dateformats'][] = "%m/%d/%Y";
