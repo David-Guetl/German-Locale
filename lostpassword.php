@@ -13,7 +13,7 @@ $locale['407'] .= "Dir wird dann ein neues Passwort an diese E-Mail Adresse gese
 $locale['408']  = "Passwort zusenden";
 
 // Passwort vergessen E-Mails
-$locale['409']  = "Neues Passwort f&uuml;r";
+$locale['409']  = "Neues Passwort für ";
 $locale['410']  = "Hallo [USER_NAME],\n\n";
 $locale['410'] .= "du hast ein neues Passwort für deinen Account auf ".$settings['sitename']." beantragt.\n";
 $locale['410'] .= "Um dein Passwort zu ändern, klicke bitte auf den folgenden Link:\n";
